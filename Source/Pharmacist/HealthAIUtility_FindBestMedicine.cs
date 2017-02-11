@@ -37,6 +37,16 @@ namespace Pharmacist
                 (m) => !m.IsForbidden( healer ) && medCare.AllowsMedicine( m.def ) && healer.CanReserve(m, 1),
                 (m) => m.def.GetStatValueAbstract(StatDefOf.MedicalPotency) );
 
+#if DEBUG
+            Log.Message($"FindBestMedicine" +
+                        $"\n\tHealer: {healer}" +
+                        $"\n\tPatient: {patient}" +
+                        $"\n\tPharmacist: {pharmacistAdvice}" +
+                        $"\n\tPlayer: {playerSetting}" +
+                        $"\n\tCompromise: {medCare}" +
+                        $"\n\tTarget: {__result}");
+#endif
+
             return false;
         }
     }
