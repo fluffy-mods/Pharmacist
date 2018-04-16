@@ -17,11 +17,9 @@ namespace Pharmacist
         public static bool Prefix( Pawn healer, Pawn patient, ref Thing __result )
         {
             // get lowest of pawn care settings & pharmacy settings
-            MedicalCareCategory pharmacistAdvice = Pharmacist.TendAdvice( patient );
-            MedicalCareCategory playerSetting = patient?.playerSettings?.medCare ?? MedicalCareCategory.NoMeds;
-            MedicalCareCategory medCare = pharmacistAdvice < playerSetting ? pharmacistAdvice : playerSetting;
+            MedicalCareCategory pharmacistAdvice = PharmacistUtility.TendAdvice( patient );
 
-            if ( medCare <= MedicalCareCategory.NoMeds )
+            if ( pharmacistAdvice <= MedicalCareCategory.NoMeds )
             {
                 __result = null;
                 return false;
@@ -34,18 +32,8 @@ namespace Pharmacist
                 PathEndMode.ClosestTouch, 
                 TraverseParms.For( healer ), 
                 9999f, 
-                (m) => !m.IsForbidden( healer ) && medCare.AllowsMedicine( m.def ) && healer.CanReserve(m, 1),
+                (m) => !m.IsForbidden( healer ) && pharmacistAdvice.AllowsMedicine( m.def ) && healer.CanReserve(m, 1),
                 (m) => m.def.GetStatValueAbstract(StatDefOf.MedicalPotency) );
-
-#if DEBUG
-            Log.Message($"FindBestMedicine" +
-                        $"\n\tHealer: {healer}" +
-                        $"\n\tPatient: {patient}" +
-                        $"\n\tPharmacist: {pharmacistAdvice}" +
-                        $"\n\tPlayer: {playerSetting}" +
-                        $"\n\tCompromise: {medCare}" +
-                        $"\n\tTarget: {__result}");
-#endif
 
             return false;
         }
