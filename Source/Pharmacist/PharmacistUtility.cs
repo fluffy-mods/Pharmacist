@@ -12,8 +12,8 @@ namespace Pharmacist
     {
         Minor,
         Major,
-        Operation,
-        LifeThreathening
+        LifeThreathening,
+        Operation
     }
 
     public enum Population
@@ -77,8 +77,12 @@ namespace Pharmacist
         public static MedicalCareCategory TendAdvice( Pawn patient, InjurySeverity severity )
         {
             Population population = patient.GetPopulation();
-            var key = new Pair<Population, InjurySeverity>( population, severity );
-            var pharmacist = Pharmacist.medicalCare[key];
+            
+            Log.Message( PharmacistSettings.medicalCare?.ToString() ?? "settings NULL" );
+            Log.Message( PharmacistSettings.medicalCare?[population]?.ToString() ?? "population NULL" );
+            Log.Message( PharmacistSettings.medicalCare?[population]?[severity].ToString() ?? "something NULL" );
+            
+            var pharmacist = PharmacistSettings.medicalCare[population][severity];
             var playerSetting = patient?.playerSettings?.medCare ?? MedicalCareCategory.Best;
             
             #if DEBUG

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Fluffy.Pharmacist>Pharmacist</Fluffy.Pharmacist>
+	<Fluffy.Pharmacist.Tip>Not all wounds are equal; set guidelines for which medicine to use when.</Fluffy.Pharmacist.Tip>
+
+	<Fluffy.Pharmacist.Settings.Title>Pharmacist settings</Fluffy.Pharmacist.Settings.Title>
+	<Fluffy.Pharmacist.Settings.Tip></Fluffy.Pharmacist.Settings.Tip>
+
+	<Fluffy.Pharmacist.Population.Colonist>Colonists</Fluffy.Pharmacist.Population.Colonist>
+	<Fluffy.Pharmacist.Population.Prisoner>Prisoners</Fluffy.Pharmacist.Population.Prisoner>
+	<Fluffy.Pharmacist.Population.Animal>Animals</Fluffy.Pharmacist.Population.Animal>
+	<Fluffy.Pharmacist.Population.Guest>Guests</Fluffy.Pharmacist.Population.Guest>
+
+	<Fluffy.Pharmacist.Severity.Minor>Minor wounds</Fluffy.Pharmacist.Severity.Minor>
+	<Fluffy.Pharmacist.Severity.Major>Major wounds</Fluffy.Pharmacist.Severity.Major>
+	<Fluffy.Pharmacist.Severity.LifeThreathening>Life-threathening wounds</Fluffy.Pharmacist.Severity.LifeThreathening>
+	<Fluffy.Pharmacist.Severity.Operation>Operations</Fluffy.Pharmacist.Severity.Operation>
+
+	<Fluffy.Pharmacist.Severity.Minor.Tip>Bruises, non-fatal diseases and small cuts.</Fluffy.Pharmacist.Severity.Minor.Tip>
+	<Fluffy.Pharmacist.Severity.Major.Tip>Large cuts and potentially fatal diseases.</Fluffy.Pharmacist.Severity.Major.Tip>
+	<Fluffy.Pharmacist.Severity.LifeThreathening.Tip>Life-threathening wounds, bleeding out and heart attacks.</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
+	<Fluffy.Pharmacist.Severity.Operation.Tip>All operations, transplants and limb replacements.</Fluffy.Pharmacist.Severity.Operation.Tip>
+
+</LanguageData>

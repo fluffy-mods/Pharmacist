@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MainButtonDef>
+    <defName>Pharmacist</defName>
+    <label>pharmacist</label>
+    <description>Not all wounds are equal; set guidelines for which medicine to use when.</description>
+    <tabWindowClass>Pharmacist.MainTabWindow_Pharmacist</tabWindowClass>
+    <order>99</order>
+  </MainButtonDef>
+
+</Defs>
