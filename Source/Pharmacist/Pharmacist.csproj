@@ -36,9 +36,6 @@
     <Reference Include="0Harmony, Version=1.0.9.1, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\..\..\harmony\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="0Reloader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\..\reloader\0Reloader.dll</HintPath>
-    </Reference>
     <Reference Include="Assembly-CSharp, Version=0.18.6527.35959, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\..\..\..\..\..\Games\steamapps\common\RimWorld\RimWorldWin_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>

@@ -4,7 +4,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Reloader;
 using RimWorld;
 using UnityEngine;
 using Verse;
@@ -20,7 +19,6 @@ namespace Pharmacist
         internal static InjurySeverity[] severities = Enum.GetValues( typeof( InjurySeverity ) ).Cast<InjurySeverity>().ToArray();
         internal static MedicalCareCategory[] medcares = Enum.GetValues( typeof( MedicalCareCategory ) ).Cast<MedicalCareCategory>().ToArray();
         
-        [ReloadMethod]
         public override void DoWindowContents( Rect canvas )
         {
             // todo: remove (debugging)
