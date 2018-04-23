@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Fluffy.Pharmacist>Apotekare</Fluffy.Pharmacist>
+  <Fluffy.Pharmacist.Tip>Inte alla sår är jämnlika; sätt riktlinjer för vilken medicin att använda.</Fluffy.Pharmacist.Tip>
+
+  <Fluffy.Pharmacist.Settings.Title>Apotekare inställningar</Fluffy.Pharmacist.Settings.Title>
+  <Fluffy.Pharmacist.Settings.Tip></Fluffy.Pharmacist.Settings.Tip>
+
+  <Fluffy.Pharmacist.Population.Colonist>Kolonister</Fluffy.Pharmacist.Population.Colonist>
+  <Fluffy.Pharmacist.Population.Prisoner>Fångar</Fluffy.Pharmacist.Population.Prisoner>
+  <Fluffy.Pharmacist.Population.Animal>Djur</Fluffy.Pharmacist.Population.Animal>
+  <Fluffy.Pharmacist.Population.Guest>Gäster</Fluffy.Pharmacist.Population.Guest>
+
+  <Fluffy.Pharmacist.Severity.Minor>Mindre</Fluffy.Pharmacist.Severity.Minor>
+  <Fluffy.Pharmacist.Severity.Major>Större</Fluffy.Pharmacist.Severity.Major>
+  <Fluffy.Pharmacist.Severity.LifeThreathening>Livshotande</Fluffy.Pharmacist.Severity.LifeThreathening>
+  <Fluffy.Pharmacist.Severity.Operation>Operationer</Fluffy.Pharmacist.Severity.Operation>
+
+  <Fluffy.Pharmacist.Severity.Minor.Tip>Blåmärken, icke-dödlig sjukdomar och små sår.</Fluffy.Pharmacist.Severity.Minor.Tip>
+  <Fluffy.Pharmacist.Severity.Major.Tip>Större sår och potentiellt dödliga sjukdomar</Fluffy.Pharmacist.Severity.Major.Tip>
+  <Fluffy.Pharmacist.Severity.LifeThreathening.Tip>Livshotande sår, förblödning och hjärtattacker.</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
+<Fluffy.Pharmacist.Severity.Operation.Tip>Alla operationer, transplantationer och Proteser</Fluffy.Pharmacist.Severity.Operation.Tip>
+
+
+</LanguageData>
