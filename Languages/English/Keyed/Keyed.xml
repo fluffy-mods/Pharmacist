@@ -14,12 +14,12 @@
 
 	<Fluffy.Pharmacist.Severity.Minor>Minor wounds</Fluffy.Pharmacist.Severity.Minor>
 	<Fluffy.Pharmacist.Severity.Major>Major wounds</Fluffy.Pharmacist.Severity.Major>
-	<Fluffy.Pharmacist.Severity.LifeThreathening>Life-threathening wounds</Fluffy.Pharmacist.Severity.LifeThreathening>
+	<Fluffy.Pharmacist.Severity.LifeThreathening>Life-threatening wounds</Fluffy.Pharmacist.Severity.LifeThreathening>
 	<Fluffy.Pharmacist.Severity.Operation>Operations</Fluffy.Pharmacist.Severity.Operation>
 
 	<Fluffy.Pharmacist.Severity.Minor.Tip>Bruises, non-fatal diseases and small cuts.</Fluffy.Pharmacist.Severity.Minor.Tip>
 	<Fluffy.Pharmacist.Severity.Major.Tip>Large cuts and potentially fatal diseases.</Fluffy.Pharmacist.Severity.Major.Tip>
-	<Fluffy.Pharmacist.Severity.LifeThreathening.Tip>Life-threathening wounds, bleeding out and heart attacks.</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
+	<Fluffy.Pharmacist.Severity.LifeThreathening.Tip>Life-threatening wounds, bleeding out and heart attacks.</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
 	<Fluffy.Pharmacist.Severity.Operation.Tip>All operations, transplants and limb replacements.</Fluffy.Pharmacist.Severity.Operation.Tip>
 
 </LanguageData>

@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c8cbdc4-7a9f-4796-8786-549d0b130fa7" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PharmacistSettings.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PharmacistSettings.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="111" column="8" lean-forward="false" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+              <folding>
+                <marker date="1524057976660" expanded="true" signature="0:51" ph="/* Settings.cs ... */" />
+                <marker date="1524057976660" expanded="false" signature="59:209" ph="..." />
+                <marker date="1524057976660" expanded="true" signature="231:4440" ph="{...}" />
+                <marker date="1524057976660" expanded="true" signature="285:4438" ph="{...}" />
+                <marker date="1524057976660" expanded="true" signature="412:459" ph="{...}" />
+                <marker date="1524057976660" expanded="true" signature="505:1482" ph="{...}" />
+                <marker date="1524057976660" expanded="true" signature="697:1296" ph="{...}" />
+                <marker date="1524057976660" expanded="true" signature="731:1217" ph="{...}" />
+                <marker date="1524057976660" expanded="true" signature="885:1156" ph="{...}" />
+                <marker date="1524057976660" expanded="true" signature="1334:1472" ph="{...}" />
+                <marker date="1524057976660" expanded="true" signature="1539:3045" ph="{...}" />
+                <marker date="1524057976660" expanded="true" signature="1825:2243" ph="{...}" />
+                <marker date="1524057976660" expanded="true" signature="2280:2397" ph="{...}" />
+                <marker date="1524057976660" expanded="true" signature="2728:2858" ph="{...}" />
+                <marker date="1524057976660" expanded="true" signature="2896:3035" ph="{...}" />
+                <marker date="1524057976660" expanded="true" signature="3095:4259" ph="{...}" />
+                <marker date="1524057976660" expanded="true" signature="4310:4432" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainTabWindow_Pharmacist.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MainTabWindow_Pharmacist.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+              <folding>
+                <marker date="1524058316813" expanded="true" signature="0:60" ph="/* Window_Pharmacist.cs ... */" />
+                <marker date="1524058316813" expanded="true" signature="68:246" ph="..." />
+                <marker date="1524058316813" expanded="true" signature="268:4780" ph="{...}" />
+                <marker date="1524058316813" expanded="true" signature="327:4778" ph="{...}" />
+                <marker date="1524058316813" expanded="true" signature="932:4772" ph="{...}" />
+                <marker date="1524058316813" expanded="true" signature="1820:2409" ph="{...}" />
+                <marker date="1524058316813" expanded="true" signature="2530:4762" ph="{...}" />
+                <marker date="1524058316813" expanded="true" signature="2902:4674" ph="{...}" />
+                <marker date="1524058316813" expanded="true" signature="3530:4616" ph="{...}" />
+                <marker date="1524058316813" expanded="true" signature="3698:4520" ph="{...}" />
+                <marker date="1524058316813" expanded="true" signature="4044:4489" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefGenerator.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/e4/243f2e20/DefGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Resources.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+              <folding>
+                <marker date="1524054369870" expanded="true" signature="0:52" ph="/* Resources.cs ... */" />
+                <marker date="1524054369870" expanded="true" signature="60:116" ph="..." />
+                <marker date="1524054369870" expanded="true" signature="138:934" ph="{...}" />
+                <marker date="1524054369870" expanded="true" signature="207:932" ph="{...}" />
+                <marker date="1524054369870" expanded="true" signature="492:926" ph="{...}" />
+                <marker date="1524054369870" expanded="true" signature="552:833" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FloatMenuOption.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/0e/bc476028/FloatMenuOption.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="202" column="46" lean-forward="false" selection-start-line="202" selection-start-column="41" selection-end-line="202" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MedicalCareUtility.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/fa/ca243151/MedicalCareUtility.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="48" column="57" lean-forward="false" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Constants.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <folding>
+                <marker date="1524047216008" expanded="true" signature="0:52" ph="/* Constants.cs ... */" />
+                <marker date="1524047216008" expanded="true" signature="74:248" ph="{...}" />
+                <marker date="1524047216008" expanded="true" signature="110:246" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Window.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/24/c23f4bf8/Window.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="51" column="27" lean-forward="false" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PharmacistUtility.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PharmacistUtility.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+              <folding>
+                <marker date="1524051617606" expanded="true" signature="0:53" ph="/* Karel Kroeze ... */" />
+                <marker date="1524051617606" expanded="false" signature="61:102" ph="..." />
+                <marker date="1524051617606" expanded="true" signature="124:3652" ph="{...}" />
+                <marker date="1524051617606" expanded="true" signature="157:243" ph="{...}" />
+                <marker date="1524051617606" expanded="true" signature="271:349" ph="{...}" />
+                <marker date="1524051617606" expanded="true" signature="392:3650" ph="{...}" />
+                <marker date="1524051617606" expanded="true" signature="472:1415" ph="{...}" />
+                <marker date="1524051617606" expanded="true" signature="1481:1814" ph="{...}" />
+                <marker date="1524051617606" expanded="true" signature="1891:2204" ph="{...}" />
+                <marker date="1524051617606" expanded="true" signature="2282:2419" ph="{...}" />
+                <marker date="1524051617606" expanded="true" signature="2514:3644" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/fa/ca243151/MedicalCareUtility.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/7e/98428294/HealthUtility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/24/c23f4bf8/Window.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HarmonyPatches/WorkGiver_DoBill_GetMedicalCareCategory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/3f/44f46a58/HealthAIUtility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ea/74b46030/ModSettings.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/f6/a27478f2/Hediff.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/PharmacistSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/91/d1125fe0/HediffComp_TendDuration.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/6a/a6f64d08/Mod.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/MainTabWindow_Pharmacist.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HarmonyPatches/HealthAIUtility_FindBestMedicine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Constants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pharmacist.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/43/a80fca7d/GameComponent.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/0e/bc476028/FloatMenuOption.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/5f/bc6fcd60/LoadedModManager.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/e4/243f2e20/DefGenerator.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/PharmacistUtility.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Properties/WorkGiver_DoBill_GetMedicalCareCategory.cs" />
+        <option value="$PROJECT_DIR$/HarmonyPatches/HealthAIUtility_FindBestMedicine.cs" />
+        <option value="$PROJECT_DIR$/HarmonyPatches/WorkGiver_DoBill_GetMedicalCareCategory.cs" />
+        <option value="$PROJECT_DIR$/Settings.cs" />
+        <option value="$PROJECT_DIR$/Pharmacist.cs" />
+        <option value="$PROJECT_DIR$/Constants.cs" />
+        <option value="$PROJECT_DIR$/PharmacistUtility.cs" />
+        <option value="$PROJECT_DIR$/Resources.cs" />
+        <option value="$PROJECT_DIR$/HarmonyPatches/DefResolver_GenerateImpliedDefs_PreResolve.cs" />
+        <option value="$PROJECT_DIR$/Window_Pharmacist.cs" />
+        <option value="$PROJECT_DIR$/PharmacistSettings.cs" />
+        <option value="$PROJECT_DIR$/MainTabWindow_Pharmacist.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="40" />
+    <option name="width" value="1294" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Pharmacist (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Pharmacist (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Pharmacist" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Pharmacist (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Pharmacist" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Pharmacist (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Pharmacist" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assemblies" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Pharmacist (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Pharmacist" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="HarmonyPatches" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../reloader/0Reloader.dll" />
+    <property name="do_not_show_unity_auto_save_notification" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c8cbdc4-7a9f-4796-8786-549d0b130fa7" name="Default" comment="" />
+      <created>1523905476718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523905476718</updated>
+      <workItem from="1523905479985" duration="9940000" />
+      <workItem from="1523995639738" duration="6660000" />
+      <workItem from="1524040172463" duration="14813000" />
+    </task>
+    <task id="LOCAL-00001" summary="update for A18, add operations patch, change severity logic.">
+      <created>1523916287400</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1523916287400</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add maintab window, icons, translations">
+      <created>1524058081154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524058081155</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="31413000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="32" width="2576" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.50317967" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.49682036" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.089427665" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4936407" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49841017" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update for A18, add operations patch, change severity logic." />
+    <MESSAGE value="add maintab window, icons, translations" />
+    <option name="LAST_COMMIT_MESSAGE" value="add maintab window, icons, translations" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Pharmacist.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <folding>
+            <marker date="1524000852463" expanded="false" signature="6:102" ph="..." />
+            <marker date="1524000852463" expanded="true" signature="124:417" ph="{...}" />
+            <marker date="1524000852463" expanded="true" signature="160:415" ph="{...}" />
+            <marker date="1524000852463" expanded="true" signature="246:409" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PharmacistSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="70" column="54" lean-forward="false" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+          <folding>
+            <marker date="1524057976660" expanded="true" signature="0:51" ph="/* Settings.cs ... */" />
+            <marker date="1524057976660" expanded="false" signature="59:209" ph="..." />
+            <marker date="1524057976660" expanded="true" signature="231:4440" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="285:4438" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="412:459" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="505:1482" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="697:1296" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="731:1217" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="885:1156" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="1334:1472" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="1539:3045" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="1825:2243" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="2280:2397" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="2728:2858" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="2896:3035" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="3095:4259" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="4310:4432" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/24/c23f4bf8/Window.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3485">
+          <caret line="205" column="27" lean-forward="false" selection-start-line="205" selection-start-column="27" selection-end-line="205" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PharmacistUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="88" column="24" lean-forward="false" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
+          <folding>
+            <marker date="1524051617606" expanded="true" signature="0:53" ph="/* Karel Kroeze ... */" />
+            <marker date="1524051617606" expanded="false" signature="61:102" ph="..." />
+            <marker date="1524051617606" expanded="true" signature="124:3652" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="157:243" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="271:349" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="392:3650" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="472:1415" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="1481:1814" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="1891:2204" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="2282:2419" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="2514:3644" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainTabWindow_Pharmacist.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <marker date="1524058316813" expanded="true" signature="0:60" ph="/* Window_Pharmacist.cs ... */" />
+            <marker date="1524058316813" expanded="true" signature="68:246" ph="..." />
+            <marker date="1524058316813" expanded="true" signature="268:4780" ph="{...}" />
+            <marker date="1524058316813" expanded="true" signature="327:4778" ph="{...}" />
+            <marker date="1524058316813" expanded="true" signature="932:4772" ph="{...}" />
+            <marker date="1524058316813" expanded="true" signature="1820:2409" ph="{...}" />
+            <marker date="1524058316813" expanded="true" signature="2530:4762" ph="{...}" />
+            <marker date="1524058316813" expanded="true" signature="2902:4674" ph="{...}" />
+            <marker date="1524058316813" expanded="true" signature="3530:4616" ph="{...}" />
+            <marker date="1524058316813" expanded="true" signature="3698:4520" ph="{...}" />
+            <marker date="1524058316813" expanded="true" signature="4044:4489" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pharmacist.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <marker date="1524000852463" expanded="false" signature="6:102" ph="..." />
+            <marker date="1524000852463" expanded="true" signature="124:417" ph="{...}" />
+            <marker date="1524000852463" expanded="true" signature="160:415" ph="{...}" />
+            <marker date="1524000852463" expanded="true" signature="246:409" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HarmonyPatches/HealthAIUtility_FindBestMedicine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PharmacistUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding>
+            <marker date="1524051617606" expanded="true" signature="0:53" ph="/* Karel Kroeze ... */" />
+            <marker date="1524051617606" expanded="false" signature="61:102" ph="..." />
+            <marker date="1524051617606" expanded="true" signature="124:3652" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="157:243" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="271:349" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="392:3650" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="472:1415" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="1481:1814" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="1891:2204" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="2282:2419" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="2514:3644" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/3f/44f46a58/HealthAIUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/7e/98428294/HealthUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7242">
+          <caret line="426" column="22" lean-forward="false" selection-start-line="426" selection-start-column="22" selection-end-line="426" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HarmonyPatches/WorkGiver_DoBill_GetMedicalCareCategory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/f6/a27478f2/Hediff.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="201" column="72" lean-forward="false" selection-start-line="201" selection-start-column="72" selection-end-line="201" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/91/d1125fe0/HediffComp_TendDuration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pharmacist.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pharmacist.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/3f/44f46a58/HealthAIUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/7e/98428294/HealthUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7242">
+          <caret line="426" column="22" lean-forward="false" selection-start-line="426" selection-start-column="22" selection-end-line="426" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HarmonyPatches/HealthAIUtility_FindBestMedicine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HarmonyPatches/WorkGiver_DoBill_GetMedicalCareCategory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/5f/bc6fcd60/LoadedModManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="122" column="20" lean-forward="false" selection-start-line="122" selection-start-column="20" selection-end-line="122" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ea/74b46030/ModSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/6a/a6f64d08/Mod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/43/a80fca7d/GameComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pharmacist.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <folding>
+            <marker date="1524000852463" expanded="false" signature="6:102" ph="..." />
+            <marker date="1524000852463" expanded="true" signature="124:417" ph="{...}" />
+            <marker date="1524000852463" expanded="true" signature="160:415" ph="{...}" />
+            <marker date="1524000852463" expanded="true" signature="246:409" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Constants.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <marker date="1524047216008" expanded="true" signature="0:52" ph="/* Constants.cs ... */" />
+            <marker date="1524047216008" expanded="true" signature="74:248" ph="{...}" />
+            <marker date="1524047216008" expanded="true" signature="110:246" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/fa/ca243151/MedicalCareUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="48" column="57" lean-forward="false" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/0e/bc476028/FloatMenuOption.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="202" column="46" lean-forward="false" selection-start-line="202" selection-start-column="41" selection-end-line="202" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/24/c23f4bf8/Window.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="51" column="27" lean-forward="false" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PharmacistUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <marker date="1524051617606" expanded="true" signature="0:53" ph="/* Karel Kroeze ... */" />
+            <marker date="1524051617606" expanded="false" signature="61:102" ph="..." />
+            <marker date="1524051617606" expanded="true" signature="124:3652" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="157:243" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="271:349" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="392:3650" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="472:1415" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="1481:1814" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="1891:2204" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="2282:2419" ph="{...}" />
+            <marker date="1524051617606" expanded="true" signature="2514:3644" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding>
+            <marker date="1524054369870" expanded="true" signature="0:52" ph="/* Resources.cs ... */" />
+            <marker date="1524054369870" expanded="true" signature="60:116" ph="..." />
+            <marker date="1524054369870" expanded="true" signature="138:934" ph="{...}" />
+            <marker date="1524054369870" expanded="true" signature="207:932" ph="{...}" />
+            <marker date="1524054369870" expanded="true" signature="492:926" ph="{...}" />
+            <marker date="1524054369870" expanded="true" signature="552:833" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/e4/243f2e20/DefGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HarmonyPatches/DefResolver_GenerateImpliedDefs_PreResolve.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PharmacistSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="111" column="8" lean-forward="false" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+          <folding>
+            <marker date="1524057976660" expanded="true" signature="0:51" ph="/* Settings.cs ... */" />
+            <marker date="1524057976660" expanded="false" signature="59:209" ph="..." />
+            <marker date="1524057976660" expanded="true" signature="231:4440" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="285:4438" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="412:459" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="505:1482" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="697:1296" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="731:1217" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="885:1156" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="1334:1472" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="1539:3045" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="1825:2243" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="2280:2397" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="2728:2858" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="2896:3035" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="3095:4259" ph="{...}" />
+            <marker date="1524057976660" expanded="true" signature="4310:4432" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainTabWindow_Pharmacist.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+          <folding>
+            <marker date="1524058316813" expanded="true" signature="0:60" ph="/* Window_Pharmacist.cs ... */" />
+            <marker date="1524058316813" expanded="true" signature="68:246" ph="..." />
+            <marker date="1524058316813" expanded="true" signature="268:4780" ph="{...}" />
+            <marker date="1524058316813" expanded="true" signature="327:4778" ph="{...}" />
+            <marker date="1524058316813" expanded="true" signature="932:4772" ph="{...}" />
+            <marker date="1524058316813" expanded="true" signature="1820:2409" ph="{...}" />
+            <marker date="1524058316813" expanded="true" signature="2530:4762" ph="{...}" />
+            <marker date="1524058316813" expanded="true" signature="2902:4674" ph="{...}" />
+            <marker date="1524058316813" expanded="true" signature="3530:4616" ph="{...}" />
+            <marker date="1524058316813" expanded="true" signature="3698:4520" ph="{...}" />
+            <marker date="1524058316813" expanded="true" signature="4044:4489" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
