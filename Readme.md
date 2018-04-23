@@ -27,6 +27,9 @@ Some injuries might be diagnosed wrong, and receive medicine that is either not 
 # Powered by Harmony
 ![Powered by Harmony](https://camo.githubusercontent.com/074bf079275fa90809f51b74e9dd0deccc70328f/68747470733a2f2f7332342e706f7374696d672e6f72672f3538626c31727a33392f6c6f676f2e706e67)
 
+# Contributors
+ - Dango998:	Simplified Chinese translation
+
 # Think you found a bug? 
 Please read [this guide](http://steamcommunity.com/sharedfiles/filedetails/?id=725234314) before creating a bug report,
  and then create a bug report [here](https://github.com/FluffierThanThou/Pharmacist/issues)
@@ -46,4 +49,4 @@ Show your appreciation by buying me a coffee (or contribute towards a nice singl
 [![Buy Me a Coffee](http://i.imgur.com/EjWiUwx.gif)](https://ko-fi.com/fluffymods)
 
 # Version
-This is version v0.18.0.2
+This is version v0.18.0.3
