@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Fluffy.Pharmacist>药剂师</Fluffy.Pharmacist>
+  <Fluffy.Pharmacist.Tip>区分伤害类别，设定治疗时的用药方针。</Fluffy.Pharmacist.Tip>
+
+  <Fluffy.Pharmacist.Settings.Title>药剂师设置</Fluffy.Pharmacist.Settings.Title>
+  <Fluffy.Pharmacist.Settings.Tip></Fluffy.Pharmacist.Settings.Tip>
+
+  <Fluffy.Pharmacist.Population.Colonist>殖民者</Fluffy.Pharmacist.Population.Colonist>
+  <Fluffy.Pharmacist.Population.Prisoner>囚犯</Fluffy.Pharmacist.Population.Prisoner>
+  <Fluffy.Pharmacist.Population.Animal>动物</Fluffy.Pharmacist.Population.Animal>
+  <Fluffy.Pharmacist.Population.Guest>访客</Fluffy.Pharmacist.Population.Guest>
+
+  <Fluffy.Pharmacist.Severity.Minor>轻度伤害</Fluffy.Pharmacist.Severity.Minor>
+  <Fluffy.Pharmacist.Severity.Major>严重伤害</Fluffy.Pharmacist.Severity.Major>
+  <Fluffy.Pharmacist.Severity.LifeThreathening>致命伤害</Fluffy.Pharmacist.Severity.LifeThreathening>
+  <Fluffy.Pharmacist.Severity.Operation>手术</Fluffy.Pharmacist.Severity.Operation>
+
+  <Fluffy.Pharmacist.Severity.Minor.Tip>瘀伤，非致命性疾病和小伤口。</Fluffy.Pharmacist.Severity.Minor.Tip>
+  <Fluffy.Pharmacist.Severity.Major.Tip>大量伤口或致命性疾病。</Fluffy.Pharmacist.Severity.Major.Tip>
+  <Fluffy.Pharmacist.Severity.LifeThreathening.Tip>致命伤害，失血或心脏病。</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
+  <Fluffy.Pharmacist.Severity.Operation.Tip>所有手术，器官移植和肢体替换。</Fluffy.Pharmacist.Severity.Operation.Tip>
+
+</LanguageData>
