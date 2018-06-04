@@ -78,10 +78,6 @@ namespace Pharmacist
         {
             Population population = patient.GetPopulation();
             
-            Log.Message( PharmacistSettings.medicalCare?.ToString() ?? "settings NULL" );
-            Log.Message( PharmacistSettings.medicalCare?[population]?.ToString() ?? "population NULL" );
-            Log.Message( PharmacistSettings.medicalCare?[population]?[severity].ToString() ?? "something NULL" );
-            
             var pharmacist = PharmacistSettings.medicalCare[population][severity];
             var playerSetting = patient?.playerSettings?.medCare ?? MedicalCareCategory.Best;
             
