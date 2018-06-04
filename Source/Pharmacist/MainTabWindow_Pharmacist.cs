@@ -46,6 +46,37 @@ namespace Pharmacist
             DrawCareSelectors( careSelectorRect );
         }
 
+        private void SetMedicalCareFor( Population population )
+        {
+            
+        }
+
+        private void SetMedicalCareFor( InjurySeverity severity )
+        {
+            
+        }
+
+        private void CreateMedicalCareSelectionFloatMenu( Action<MedicalCareCategory> action )
+        {
+            List<FloatMenuOption> options = new List<FloatMenuOption>();
+            foreach ( var category in medcares )
+            {
+                options.Add( new FloatMenuOption( $"MedicalCareCategory_{category}".Translate(),
+                    () => action(category),
+                    extraPartWidth: 30,
+                    extraPartOnGUI: rect =>
+                    {
+                        var optionIconRect = new Rect( 0f, 0f, IconSize, IconSize )
+                            .CenteredOnXIn( rect )
+                            .CenteredOnYIn( rect );
+                        GUI.DrawTexture( optionIconRect, medcareGraphics[(int) category] );
+                        return false;
+                    } ) );
+            }
+
+            Find.WindowStack.Add( new FloatMenu( options ) );
+        }
+
         private void DrawCareSelectors( Rect canvas )
         {
             // draw column headers
@@ -61,6 +92,18 @@ namespace Pharmacist
                     $"Fluffy.Pharmacist.Severity.{severity}".Translate() + "\n\n" +
                     $"Fluffy.Pharmacist.Severity.{severity}.Tip".Translate() );
                 GUI.DrawTexture( headerIconRect, severityTextures[(int) severity] );
+                
+                
+                if ( Widgets.ButtonInvisible( cell ) )
+                {
+                    CreateMedicalCareSelectionFloatMenu( category =>
+                    {
+                        foreach ( var population in populations )
+                        {
+                            PharmacistSettings.medicalCare[population][severity] = category;
+                        }
+                    } );
+                }
 
                 pos.x += CareSelectorColumnWidth;
             }
@@ -70,11 +113,23 @@ namespace Pharmacist
 
             foreach ( var population in populations )
             {
+                var populationLabelRect = new Rect( pos.x, pos.y, CareSelectorRowLabelWidth, RowHeight );
                 Text.Anchor = TextAnchor.MiddleLeft;
-                Widgets.Label( new Rect( pos.x, pos.y, CareSelectorRowLabelWidth, RowHeight ),
-                    $"Fluffy.Pharmacist.Population.{population}".Translate() );
-                pos.x += CareSelectorRowLabelWidth;
+                Widgets.Label( populationLabelRect, $"Fluffy.Pharmacist.Population.{population}".Translate() );
                 Text.Anchor = TextAnchor.UpperLeft;
+                
+                if ( Widgets.ButtonInvisible( populationLabelRect ) )
+                {
+                    CreateMedicalCareSelectionFloatMenu( category =>
+                    {
+                        foreach ( var severity in severities )
+                        {
+                            PharmacistSettings.medicalCare[population][severity] = category;
+                        }
+                    } );
+                }
+                
+                pos.x += CareSelectorRowLabelWidth;
 
                 foreach ( var severity in severities )
                 {
@@ -92,23 +147,7 @@ namespace Pharmacist
 
                     if ( Widgets.ButtonInvisible( cell ) )
                     {
-                        List<FloatMenuOption> options = new List<FloatMenuOption>();
-                        foreach ( var category in medcares )
-                        {
-                            options.Add( new FloatMenuOption( $"MedicalCareCategory_{category}".Translate(),
-                                () => PharmacistSettings.medicalCare[population][severity] = category,
-                                extraPartWidth: 30,
-                                extraPartOnGUI: rect =>
-                                {
-                                    var optionIconRect = new Rect( 0f, 0f, IconSize, IconSize )
-                                        .CenteredOnXIn( rect )
-                                        .CenteredOnYIn( rect );
-                                    GUI.DrawTexture( optionIconRect, medcareGraphics[(int) category] );
-                                    return false;
-                                } ) );
-                        }
-
-                        Find.WindowStack.Add( new FloatMenu( options ) );
+                        CreateMedicalCareSelectionFloatMenu( category => PharmacistSettings.medicalCare[population][severity] = category );
                     }
 
                     pos.x += CareSelectorColumnWidth;
