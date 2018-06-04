@@ -87,13 +87,13 @@ namespace Pharmacist
                 canvas.width - Constants.Margin * 2,
                 RowHeight );
             
-            Widgets.Label( row, "Fluffy.Pharmacist.DiseaseMargin".Translate() );
+            Widgets.Label( row, "Fluffy.Pharmacist.DiseaseMargin".Translate( PharmacistSettings.medicalCare.DiseaseMargin.ToStringPercent() ) );
             TooltipHandler.TipRegion( row, "Fluffy.Pharmacist.DiseaseMargin.Tip".Translate() );
             row.y += RowHeight;
-            PharmacistSettings.medicalCare.DiseaseMargin = Widgets.HorizontalSlider( row, PharmacistSettings.medicalCare.DiseaseMargin, 0f, 1f );
+            PharmacistSettings.medicalCare.DiseaseMargin = Widgets.HorizontalSlider( row, PharmacistSettings.medicalCare.DiseaseMargin, 0f, 1f, roundTo: .01f );
             row.y += RowHeight;
             
-            Widgets.Label( row, "Fluffy.Pharmacist.MinorWoundsThreshold".Translate() );
+            Widgets.Label( row, "Fluffy.Pharmacist.MinorWoundsThreshold".Translate( PharmacistSettings.medicalCare.MinorWoundsThreshold ) );
             TooltipHandler.TipRegion( row, "Fluffy.Pharmacist.MinorWoundsThreshold.Tip".Translate() );
             row.y += RowHeight;
             PharmacistSettings.medicalCare.MinorWoundsThreshold = (int)Widgets.HorizontalSlider( row, PharmacistSettings.medicalCare.MinorWoundsThreshold, 2, 20, roundTo: 1 );

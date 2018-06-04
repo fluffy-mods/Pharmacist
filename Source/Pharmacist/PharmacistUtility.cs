@@ -64,6 +64,7 @@ namespace Pharmacist
             var compImmunizable = h.TryGetComp<HediffComp_Immunizable>();
             return PotentiallyLethalDisease( h ) && 
                    !compImmunizable.FullyImmune && 
+                   h.Severity > Constants.LethalDiseaseLowerBound &&
                    compImmunizable.Immunity + PharmacistSettings.medicalCare.DiseaseMargin < h.Severity;
         }
 

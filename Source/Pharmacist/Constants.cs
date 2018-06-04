@@ -11,5 +11,6 @@ namespace Pharmacist
         public const int CareSelectorColumnWidth = 50;
         public const int CareSelectorRowLabelWidth = 150;
         public const int Margin = 6;
+        public const float LethalDiseaseLowerBound = 0.1f;
     }
 }

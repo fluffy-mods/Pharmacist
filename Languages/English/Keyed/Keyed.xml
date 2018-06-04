@@ -19,7 +19,12 @@
 
 	<Fluffy.Pharmacist.Severity.Minor.Tip>Bruises, non-fatal diseases and small cuts.</Fluffy.Pharmacist.Severity.Minor.Tip>
 	<Fluffy.Pharmacist.Severity.Major.Tip>Large cuts and potentially fatal diseases.</Fluffy.Pharmacist.Severity.Major.Tip>
-	<Fluffy.Pharmacist.Severity.LifeThreathening.Tip>Life-threatening wounds, bleeding out and heart attacks.</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
+	<Fluffy.Pharmacist.Severity.LifeThreathening.Tip>Life-threatening wounds, heart attacks and near-fatal diseases.</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
 	<Fluffy.Pharmacist.Severity.Operation.Tip>All operations, transplants and limb replacements.</Fluffy.Pharmacist.Severity.Operation.Tip>
+
+	<Fluffy.Pharmacist.DiseaseMargin>Disease immunity margin: {0}</Fluffy.Pharmacist.DiseaseMargin>
+	<Fluffy.Pharmacist.DiseaseMargin.Tip>Security margin used when treating diseases. \n\nIf immunity is lower than disease progress plus this margin, the disease is treated as a life-threathening injury.\n\nFor example, if a disease has progressed 75%, immunity is at 80%, and the margin is 10%, the disease will be classed as life-threatening. If the threshold was 5%, the disease would be classed as a major injury instead.</Fluffy.Pharmacist.DiseaseMargin.Tip>
+	<Fluffy.Pharmacist.MinorWoundsThreshold>Minor cuts threshold: {0}</Fluffy.Pharmacist.MinorWoundsThreshold>
+	<Fluffy.Pharmacist.MinorWoundsThreshold.Tip>If the number of minor cuts is greater than this threshold, they are treated as a major injury regardless of bleed rate. \n\nUseful to prevent 'death by a thousand cuts', where a large number of small cuts can cause multiple infections - and ultimately, death.</Fluffy.Pharmacist.MinorWoundsThreshold.Tip>
 
 </LanguageData>
