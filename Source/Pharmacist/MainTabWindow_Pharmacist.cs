@@ -14,10 +14,13 @@ namespace Pharmacist
 {
     public class MainTabWindow_Pharmacist: MainTabWindow
     {
-        public override Vector2 InitialSize => new Vector2( 500, TitleHeight + ( populations.Length + 1 ) * RowHeight + 2 * Margin );
+        public override Vector2 InitialSize => new Vector2( CareSelectorWidth + 2 * Margin, TitleHeight + CareSelectorHeight + 2 * Margin );
         internal static Population[] populations = Enum.GetValues( typeof( Population ) ).Cast<Population>().ToArray();
         internal static InjurySeverity[] severities = Enum.GetValues( typeof( InjurySeverity ) ).Cast<InjurySeverity>().ToArray();
         internal static MedicalCareCategory[] medcares = Enum.GetValues( typeof( MedicalCareCategory ) ).Cast<MedicalCareCategory>().ToArray();
+
+        internal static int CareSelectorWidth => CareSelectorRowLabelWidth + CareSelectorColumnWidth * severities.Length;
+        internal static int CareSelectorHeight => RowHeight * ( populations.Length + 1 );
         
         public override void DoWindowContents( Rect canvas )
         {
@@ -30,29 +33,36 @@ namespace Pharmacist
                 canvas.yMin, 
                 canvas.width, 
                 TitleHeight );
-            Vector2 pos = new Vector2( canvas.xMin, titleRect.yMax );
+            Rect careSelectorRect = new Rect(
+                canvas.xMin,
+                titleRect.yMax,
+                CareSelectorWidth,
+                CareSelectorHeight );
 
             Text.Font = GameFont.Medium;
             Widgets.Label( titleRect, "Fluffy.Pharmacist.Settings.Title".Translate() );
             Text.Font = GameFont.Small;
             
-            // set up column widths
-            int labelWidth = (int)canvas.width / 4;
-            int colWidth = (int) ( canvas.width - labelWidth ) / severities.Length;
-            
+            DrawCareSelectors( careSelectorRect );
+        }
+
+        private void DrawCareSelectors( Rect canvas )
+        {
             // draw column headers
-            pos.x += labelWidth;
+            var pos = new Vector2( canvas.xMin + CareSelectorRowLabelWidth, canvas.yMin );
             foreach ( var severity in severities )
             {
-                var cell = new Rect( pos.x, pos.y, colWidth, RowHeight );
+                var cell = new Rect( pos.x, pos.y, CareSelectorColumnWidth, RowHeight );
                 var headerIconRect = new Rect( 0, 0, IconSize, IconSize )
                     .CenteredOnXIn( cell )
                     .CenteredOnYIn( cell );
-                
-                TooltipHandler.TipRegion( cell, $"Fluffy.Pharmacist.Severity.{severity}".Translate() + "\n\n" + $"Fluffy.Pharmacist.Severity.{severity}.Tip".Translate() );
+
+                TooltipHandler.TipRegion( cell,
+                    $"Fluffy.Pharmacist.Severity.{severity}".Translate() + "\n\n" +
+                    $"Fluffy.Pharmacist.Severity.{severity}.Tip".Translate() );
                 GUI.DrawTexture( headerIconRect, severityTextures[(int) severity] );
-                
-                pos.x += colWidth;
+
+                pos.x += CareSelectorColumnWidth;
             }
 
             pos.x = canvas.xMin;
@@ -61,9 +71,9 @@ namespace Pharmacist
             foreach ( var population in populations )
             {
                 Text.Anchor = TextAnchor.MiddleLeft;
-                Widgets.Label( new Rect( pos.x, pos.y, labelWidth, RowHeight ),
+                Widgets.Label( new Rect( pos.x, pos.y, CareSelectorRowLabelWidth, RowHeight ),
                     $"Fluffy.Pharmacist.Population.{population}".Translate() );
-                pos.x += labelWidth;
+                pos.x += CareSelectorRowLabelWidth;
                 Text.Anchor = TextAnchor.UpperLeft;
 
                 foreach ( var severity in severities )
@@ -71,14 +81,14 @@ namespace Pharmacist
                     Rect cell = new Rect(
                         pos.x,
                         pos.y,
-                        colWidth,
+                        CareSelectorColumnWidth,
                         RowHeight );
                     Rect iconRect = new Rect( 0, 0, IconSize, IconSize )
                         .CenteredOnXIn( cell )
                         .CenteredOnYIn( cell );
-                    
+
                     Widgets.DrawHighlightIfMouseover( cell );
-                    GUI.DrawTexture( iconRect, medcareGraphics[(int)PharmacistSettings.medicalCare[population][severity]]);
+                    GUI.DrawTexture( iconRect, medcareGraphics[(int) PharmacistSettings.medicalCare[population][severity]] );
 
                     if ( Widgets.ButtonInvisible( cell ) )
                     {
@@ -97,10 +107,11 @@ namespace Pharmacist
                                     return false;
                                 } ) );
                         }
+
                         Find.WindowStack.Add( new FloatMenu( options ) );
                     }
 
-                    pos.x += colWidth;
+                    pos.x += CareSelectorColumnWidth;
                 }
 
                 pos.x = canvas.xMin;
