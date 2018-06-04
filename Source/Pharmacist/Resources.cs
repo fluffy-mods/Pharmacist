@@ -14,7 +14,8 @@ namespace Pharmacist
         public static Texture2D[] severityTextures;
         public static Texture2D pharmacistIcon;
         public static Texture2D[] medcareGraphics = AccessTools.Field( typeof( MedicalCareUtility ), "careTextures" ).GetValue( null ) as Texture2D[];
-
+        public static Texture2D SlightlyDarkBackground = SolidColorMaterials.NewSolidColorTexture( new Color( 0f, 0f, 0f, .1f ) );
+        
         static Resources()
         {
             severityTextures = new[]

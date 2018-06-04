@@ -2,6 +2,7 @@
 // PharmacistUtility.cs
 // 2017-02-11
 
+using System.Linq;
 using System.Text;
 using RimWorld;
 using Verse;
@@ -35,12 +36,15 @@ namespace Pharmacist
             var ticksToDeathDueToBloodLoss = HealthUtility.TicksUntilDeathDueToBloodLoss( patient );
             
             // going to die in <6 hours, or any tendable is life threathening
-            if ( ticksToDeathDueToBloodLoss <= GenDate.TicksPerHour * 6 || hediffs.Any( h => h.CurStage?.lifeThreatening ?? false ) )
+            if ( ticksToDeathDueToBloodLoss <= GenDate.TicksPerHour * 6 || 
+                 hediffs.Any( h => h.CurStage?.lifeThreatening ?? false ) ||
+                 hediffs.Any( NearLethalDisease ) )
                 return InjurySeverity.LifeThreathening;
             
-            // going to die in <12 hours, or any immunity < severity and can be fatal
+            // going to die in <12 hours, or any immunity < severity and can be fatal, or death by a thousand cuts imminent
             if ( ticksToDeathDueToBloodLoss <= GenDate.TicksPerHour * 12 ||
-                 hediffs.Any( PotentiallyLethalDisease ) )
+                 hediffs.Any( PotentiallyLethalDisease ) || 
+                 DeathByAThousandCuts( patient ) )
                 return InjurySeverity.Major;
             
             // otherwise
@@ -52,9 +56,22 @@ namespace Pharmacist
             if ( h.def.lethalSeverity <= 0f )
                 return false;
             var compImmunizable = h.TryGetComp<HediffComp_Immunizable>();
-            if ( compImmunizable == null )
-                return false;
-            return !compImmunizable.FullyImmune && compImmunizable.Immunity < h.Severity;
+            return compImmunizable != null;
+        }
+
+        private static bool NearLethalDisease( Hediff h )
+        {
+            var compImmunizable = h.TryGetComp<HediffComp_Immunizable>();
+            return PotentiallyLethalDisease( h ) && 
+                   !compImmunizable.FullyImmune && 
+                   compImmunizable.Immunity + PharmacistSettings.medicalCare.DiseaseMargin < h.Severity;
+        }
+
+        private static bool DeathByAThousandCuts( Pawn patient )
+        {
+            // number of bleeding wounds > threshold
+            return patient.health.hediffSet.hediffs.Count( hediff => hediff.Bleeding ) >
+                   PharmacistSettings.medicalCare.MinorWoundsThreshold;
         }
         
         public static Population GetPopulation( this Pawn patient )

@@ -23,6 +23,8 @@ namespace Pharmacist
         public class MedicalCare: IExposable
         {
             private Dictionary<Population, PopulationCare> _populationCare = new Dictionary<Population, PopulationCare>();
+            private float _diseaseMargin = 0.1f;
+            private int _minorWoundsThreshold = 5;
             public PopulationCare this[ Population index ]
             {
                 get
@@ -39,9 +41,23 @@ namespace Pharmacist
                 internal set { _populationCare[index] = value; }
             }
 
+            public float DiseaseMargin
+            {
+                protected internal set => _diseaseMargin = value;
+                get => _diseaseMargin;
+            }
+
+            public int MinorWoundsThreshold
+            {
+                protected internal set => _minorWoundsThreshold = value;
+                get => _minorWoundsThreshold;
+            }
+
             public void ExposeData()
             {
                 Scribe_Collections.Look( ref _populationCare, "Populations", LookMode.Value, LookMode.Deep );
+                Scribe_Values.Look( ref _diseaseMargin, "DiseaseMargin", 0.1f );
+                Scribe_Values.Look( ref _minorWoundsThreshold, "MinorWoundsThreshold", 5 );
             }
         }
         

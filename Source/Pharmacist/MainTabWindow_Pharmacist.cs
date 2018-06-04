@@ -14,13 +14,17 @@ namespace Pharmacist
 {
     public class MainTabWindow_Pharmacist: MainTabWindow
     {
-        public override Vector2 InitialSize => new Vector2( CareSelectorWidth + 2 * Margin, TitleHeight + CareSelectorHeight + 2 * Margin );
+        public override Vector2 InitialSize => new Vector2( 
+            CareSelectorWidth + OptionsWidth + Constants.Margin + 2 * Margin,
+            TitleHeight + CareSelectorHeight + 2 * Margin );
         internal static Population[] populations = Enum.GetValues( typeof( Population ) ).Cast<Population>().ToArray();
         internal static InjurySeverity[] severities = Enum.GetValues( typeof( InjurySeverity ) ).Cast<InjurySeverity>().ToArray();
         internal static MedicalCareCategory[] medcares = Enum.GetValues( typeof( MedicalCareCategory ) ).Cast<MedicalCareCategory>().ToArray();
 
         internal static int CareSelectorWidth => CareSelectorRowLabelWidth + CareSelectorColumnWidth * severities.Length;
         internal static int CareSelectorHeight => RowHeight * ( populations.Length + 1 );
+        internal static int OptionsWidth => 300;
+        internal static int OptionsHeight => CareSelectorHeight;
         
         public override void DoWindowContents( Rect canvas )
         {
@@ -38,22 +42,18 @@ namespace Pharmacist
                 titleRect.yMax,
                 CareSelectorWidth,
                 CareSelectorHeight );
+            Rect optionsRect = new Rect(
+                careSelectorRect.xMax + Constants.Margin,
+                titleRect.yMax,
+                OptionsWidth,
+                OptionsHeight );
 
             Text.Font = GameFont.Medium;
             Widgets.Label( titleRect, "Fluffy.Pharmacist.Settings.Title".Translate() );
             Text.Font = GameFont.Small;
             
             DrawCareSelectors( careSelectorRect );
-        }
-
-        private void SetMedicalCareFor( Population population )
-        {
-            
-        }
-
-        private void SetMedicalCareFor( InjurySeverity severity )
-        {
-            
+            DrawOptions( optionsRect );
         }
 
         private void CreateMedicalCareSelectionFloatMenu( Action<MedicalCareCategory> action )
@@ -77,8 +77,34 @@ namespace Pharmacist
             Find.WindowStack.Add( new FloatMenu( options ) );
         }
 
+        private void DrawOptions( Rect canvas )
+        {
+            // draw background
+            GUI.DrawTexture( canvas, SlightlyDarkBackground );
+
+            var row = new Rect( canvas.xMin + Constants.Margin,
+                canvas.yMin + Constants.Margin,
+                canvas.width - Constants.Margin * 2,
+                RowHeight );
+            
+            Widgets.Label( row, "Fluffy.Pharmacist.DiseaseMargin".Translate() );
+            TooltipHandler.TipRegion( row, "Fluffy.Pharmacist.DiseaseMargin.Tip".Translate() );
+            row.y += RowHeight;
+            PharmacistSettings.medicalCare.DiseaseMargin = Widgets.HorizontalSlider( row, PharmacistSettings.medicalCare.DiseaseMargin, 0f, 1f );
+            row.y += RowHeight;
+            
+            Widgets.Label( row, "Fluffy.Pharmacist.MinorWoundsThreshold".Translate() );
+            TooltipHandler.TipRegion( row, "Fluffy.Pharmacist.MinorWoundsThreshold.Tip".Translate() );
+            row.y += RowHeight;
+            PharmacistSettings.medicalCare.MinorWoundsThreshold = (int)Widgets.HorizontalSlider( row, PharmacistSettings.medicalCare.MinorWoundsThreshold, 2, 20, roundTo: 1 );
+            row.y += RowHeight;
+        }
+
         private void DrawCareSelectors( Rect canvas )
         {
+            // draw background
+            GUI.DrawTexture( canvas, SlightlyDarkBackground );
+            
             // draw column headers
             var pos = new Vector2( canvas.xMin + CareSelectorRowLabelWidth, canvas.yMin );
             foreach ( var severity in severities )
@@ -93,7 +119,7 @@ namespace Pharmacist
                     $"Fluffy.Pharmacist.Severity.{severity}.Tip".Translate() );
                 GUI.DrawTexture( headerIconRect, severityTextures[(int) severity] );
                 
-                
+                Widgets.DrawHighlightIfMouseover( cell );
                 if ( Widgets.ButtonInvisible( cell ) )
                 {
                     CreateMedicalCareSelectionFloatMenu( category =>
@@ -118,6 +144,7 @@ namespace Pharmacist
                 Widgets.Label( populationLabelRect, $"Fluffy.Pharmacist.Population.{population}".Translate() );
                 Text.Anchor = TextAnchor.UpperLeft;
                 
+                Widgets.DrawHighlightIfMouseover( populationLabelRect );
                 if ( Widgets.ButtonInvisible( populationLabelRect ) )
                 {
                     CreateMedicalCareSelectionFloatMenu( category =>
