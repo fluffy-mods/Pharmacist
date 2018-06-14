@@ -29,7 +29,7 @@ Some injuries might be diagnosed wrong, and receive medicine that is either not 
 
 # Contributors
  - Dango998:	Simplified Chinese translation
- - SteamJay:	
+ - SteamJay:	Swedish translation
 
 # Think you found a bug? 
 Please read [this guide](http://steamcommunity.com/sharedfiles/filedetails/?id=725234314) before creating a bug report,

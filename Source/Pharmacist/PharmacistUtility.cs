@@ -29,7 +29,7 @@ namespace Pharmacist
     {
         public static InjurySeverity GetTendSeverity( this Pawn patient )
         {
-            if ( !HealthAIUtility.ShouldBeTendedNow( patient ) )
+            if ( !HealthAIUtility.ShouldBeTendedNowByPlayer( patient ) ) //    .ShouldBeTendedNow( patient ) )
                 return InjurySeverity.Minor;
             
             var hediffs = patient.health.hediffSet.hediffs;

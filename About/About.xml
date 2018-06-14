@@ -3,7 +3,7 @@
   <name>Pharmacist</name>
   <author>Fluffy</author>
   <url>https://ludeon.com/forums/index.php?topic=16120</url>
-  <targetVersion>0.18.1722</targetVersion>
+  <targetVersion>1.0.1934</targetVersion>
   <description>Not all injuries are equal; pharmacist prescribes the right medicine for the job.
 
 &lt;size=24&gt;Important&lt;/size&gt;
@@ -36,7 +36,7 @@ Some injuries might be diagnosed wrong, and receive medicine that is either not 
 &lt;size=24&gt;Contributors&lt;/size&gt;
 
 Dango998:    Simplified Chinese translation
-SteamJay:    
+SteamJay:    Swedish translation
 
 &lt;size=24&gt;Version&lt;/size&gt;
 This is version v0.18.0.6

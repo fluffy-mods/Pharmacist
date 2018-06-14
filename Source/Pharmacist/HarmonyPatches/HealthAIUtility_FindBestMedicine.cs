@@ -2,7 +2,6 @@
 // HealthAIUtility_FindBestMedicine.cs
 // 2017-02-11
 
-using System;
 using Harmony;
 using RimWorld;
 using Verse;
