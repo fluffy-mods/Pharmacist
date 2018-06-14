@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Karel\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Pharmacist.-1250435493.00" t="ExcludeRecursive" />
-    <e p="D:\NextCloud\Other\RW_Mods\Fluffy Mods\Pharmacist\Assemblies" t="ExcludeRecursive" />
-    <e p="D:\NextCloud\Other\RW_Mods\Fluffy Mods\Pharmacist\Source\Pharmacist" t="IncludeRecursive">
+    <e p="C:\Users\Karel\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Pharmacist.914417293.00" t="ExcludeRecursive" />
+    <e p="D:\Dropbox\Mods\Fluffy Mods\Pharmacist\Assemblies" t="ExcludeRecursive" />
+    <e p="D:\Dropbox\Mods\Fluffy Mods\Pharmacist\Source\Pharmacist" t="IncludeRecursive">
       <e p="Constants.cs" t="Include" />
       <e p="HarmonyPatches" t="Include">
         <e p="HealthAIUtility_FindBestMedicine.cs" t="Include" />
