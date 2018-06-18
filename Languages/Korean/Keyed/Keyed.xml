@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Fluffy.Pharmacist>Pharmacist</Fluffy.Pharmacist>
+  <Fluffy.Pharmacist.Tip>모든 상처가 항상 같지는 않습니다; 약의 사용 시기에 맞게 약품 정책을 작성하세요.</Fluffy.Pharmacist.Tip>
+
+  <Fluffy.Pharmacist.Settings.Title>약품 설정</Fluffy.Pharmacist.Settings.Title>
+  <Fluffy.Pharmacist.Settings.Tip></Fluffy.Pharmacist.Settings.Tip>
+
+  <Fluffy.Pharmacist.Population.Colonist>정착민</Fluffy.Pharmacist.Population.Colonist>
+  <Fluffy.Pharmacist.Population.Prisoner>죄수</Fluffy.Pharmacist.Population.Prisoner>
+  <Fluffy.Pharmacist.Population.Animal>동물</Fluffy.Pharmacist.Population.Animal>
+  <Fluffy.Pharmacist.Population.Guest>방문자</Fluffy.Pharmacist.Population.Guest>
+
+  <Fluffy.Pharmacist.Severity.Minor>경미한 부상</Fluffy.Pharmacist.Severity.Minor>
+  <Fluffy.Pharmacist.Severity.Major>심각한 부상</Fluffy.Pharmacist.Severity.Major>
+  <Fluffy.Pharmacist.Severity.LifeThreathening>생명을 위협하는 부상</Fluffy.Pharmacist.Severity.LifeThreathening>
+  <Fluffy.Pharmacist.Severity.Operation>수술</Fluffy.Pharmacist.Severity.Operation>
+
+  <Fluffy.Pharmacist.Severity.Minor.Tip>타박상, 치명적이지 않은 질병과 작은 상처들.</Fluffy.Pharmacist.Severity.Minor.Tip>
+  <Fluffy.Pharmacist.Severity.Major.Tip>큰 상처와 치명적인 질병.</Fluffy.Pharmacist.Severity.Major.Tip>
+  <Fluffy.Pharmacist.Severity.LifeThreathening.Tip>생명을 위협하는 상처나 출혈, 심장 마비.</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
+  <Fluffy.Pharmacist.Severity.Operation.Tip>모든 수술, 팔다리 대체같은 이식 수술들.</Fluffy.Pharmacist.Severity.Operation.Tip>
+
+</LanguageData>

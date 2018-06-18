@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Fluffy.Pharmacist>Apotheker</Fluffy.Pharmacist>
+	<Fluffy.Pharmacist.Tip>Nicht alle verletzungen sind gleich.\n Richtlinien festlegen, welche Medizin wann verwendet werden soll.</Fluffy.Pharmacist.Tip>
+
+	<Fluffy.Pharmacist.Settings.Title>Apotheker einstellungen</Fluffy.Pharmacist.Settings.Title>
+	<Fluffy.Pharmacist.Settings.Tip></Fluffy.Pharmacist.Settings.Tip>
+
+	<Fluffy.Pharmacist.Population.Colonist>Kolonist</Fluffy.Pharmacist.Population.Colonist>
+	<Fluffy.Pharmacist.Population.Prisoner>Gefangene</Fluffy.Pharmacist.Population.Prisoner>
+	<Fluffy.Pharmacist.Population.Animal>Tiere</Fluffy.Pharmacist.Population.Animal>
+	<Fluffy.Pharmacist.Population.Guest>Besucher</Fluffy.Pharmacist.Population.Guest>
+
+	<Fluffy.Pharmacist.Severity.Minor>Leichte Verletzung</Fluffy.Pharmacist.Severity.Minor>
+	<Fluffy.Pharmacist.Severity.Major>Schwere Verletzung</Fluffy.Pharmacist.Severity.Major>
+	<Fluffy.Pharmacist.Severity.LifeThreathening>Lebensbedrohliche Verletzung</Fluffy.Pharmacist.Severity.LifeThreathening>
+	<Fluffy.Pharmacist.Severity.Operation>Operationen</Fluffy.Pharmacist.Severity.Operation>
+
+	<Fluffy.Pharmacist.Severity.Minor.Tip>Prellungen, nicht tödliche Krankheiten und kleine Schnitte.</Fluffy.Pharmacist.Severity.Minor.Tip>
+	<Fluffy.Pharmacist.Severity.Major.Tip>Große Schnitte und potenziell tödliche Krankheiten.</Fluffy.Pharmacist.Severity.Major.Tip>
+	<Fluffy.Pharmacist.Severity.LifeThreathening.Tip>Lebensbedrohliche Wunden, Herzinfarkte und fast tödliche Krankheiten.</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
+	<Fluffy.Pharmacist.Severity.Operation.Tip>Alle Operationen, Transplantationen und Gliedmaßenersatz.</Fluffy.Pharmacist.Severity.Operation.Tip>
+
+	<Fluffy.Pharmacist.DiseaseMargin>Krankheitsimmunität: {0}</Fluffy.Pharmacist.DiseaseMargin>
+	<Fluffy.Pharmacist.DiseaseMargin.Tip>Sicherheitsmarge bei der Behandlung von Krankheiten. \n\nWenn die Immunität niedriger ist als der Krankheitsfortschritt plus dieser Grenze, wird die Krankheit als lebensbedrohliche Verletzung behandelt.\n\nZum Beispiel, wenn eine Krankheit 75% fortgeschritten ist, liegt die Immunität bei 80% und die Marge bei 10 %, wird die Krankheit als lebensbedrohlich eingestuft. Wenn der Grenzwert 5% betrüge, würde die Krankheit stattdessen als Schwereverletzung eingestuft.</Fluffy.Pharmacist.DiseaseMargin.Tip>
+	<Fluffy.Pharmacist.MinorWoundsThreshold>Kleine Schnitte bis: {0}</Fluffy.Pharmacist.MinorWoundsThreshold>
+	<Fluffy.Pharmacist.MinorWoundsThreshold.Tip>Wenn die Anzahl der kleineren Schnitte größer als dieser Grenzwert ist, werden sie unabhängig von der Blutungsrate als schwere Verletzung behandelt. \n\nNützlich, um den "Tod durch tausend Schnitte" zu verhindern, bei dem eine große Anzahl kleiner Schnitte mehrere Infektionen verursachen können - und letztendlich zum Tote führen.</Fluffy.Pharmacist.MinorWoundsThreshold.Tip>
+
+</LanguageData>
