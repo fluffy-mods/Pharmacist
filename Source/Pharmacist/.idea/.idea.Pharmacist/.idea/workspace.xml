@@ -233,10 +233,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="922" />
+    <option name="x" value="1273" />
     <option name="y" value="40" />
-    <option name="width" value="1645" />
-    <option name="height" value="1047" />
+    <option name="width" value="1294" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -284,7 +284,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="do_not_show_unity_auto_save_notification" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../WorkTab/Source/WorkTab.sln" />
+    <property name="last_opened_file_path" value="D:/Games/steamapps/common/RimWorld/RimWorldWin_Data/Managed/Assembly-CSharp.dll" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
