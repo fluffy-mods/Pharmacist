@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c8cbdc4-7a9f-4796-8786-549d0b130fa7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../../About/About.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../About/About.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assemblies/Pharmacist.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assemblies/Pharmacist.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pharmacist/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pharmacist/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarmonyPatches/HealthAIUtility_FindBestMedicine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HarmonyPatches/HealthAIUtility_FindBestMedicine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pharmacist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacist.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pharmacist.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pharmacist.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PharmacistUtility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PharmacistUtility.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/AssemblyInfo.cs" afterDir="false" />
-    </list>
+    <list default="true" id="6c8cbdc4-7a9f-4796-8786-549d0b130fa7" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +19,6 @@
               <folding>
                 <marker date="1528140144826" expanded="true" signature="0:60" ph="/* Window_Pharmacist.cs ... */" />
                 <marker date="1528140144826" expanded="false" signature="68:246" ph="..." />
-                <marker date="1528140144826" expanded="true" signature="268:8128" ph="{...}" />
                 <marker date="1528140144826" expanded="true" signature="327:8126" ph="{...}" />
                 <marker date="1528140144826" expanded="true" signature="1325:2314" ph="{...}" />
                 <marker date="1528140144826" expanded="true" signature="2410:3234" ph="{...}" />
@@ -52,14 +41,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Resources.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Resources.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="459">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding>
                 <marker date="1528923767678" expanded="true" signature="0:52" ph="/* Resources.cs ... */" />
-                <marker date="1528923767678" expanded="true" signature="60:116" ph="..." />
+                <marker date="1528923767678" expanded="false" signature="60:116" ph="..." />
                 <marker date="1528923767678" expanded="true" signature="138:1073" ph="{...}" />
                 <marker date="1528923767678" expanded="true" signature="207:1071" ph="{...}" />
                 <marker date="1528923767678" expanded="true" signature="631:1065" ph="{...}" />
@@ -94,12 +83,11 @@
       <file leaf-file-name="PharmacistUtility.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PharmacistUtility.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="476">
               <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
               <folding>
                 <marker date="1528921609369" expanded="true" signature="0:53" ph="/* Karel Kroeze ... */" />
                 <marker date="1528921609369" expanded="false" signature="61:121" ph="..." />
-                <marker date="1528921609369" expanded="true" signature="143:4170" ph="{...}" />
                 <marker date="1528921609369" expanded="true" signature="176:262" ph="{...}" />
                 <marker date="1528921609369" expanded="true" signature="290:368" ph="{...}" />
                 <marker date="1528921609369" expanded="true" signature="411:4168" ph="{...}" />
@@ -115,14 +103,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HealthAIUtility_FindBestMedicine.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HealthAIUtility_FindBestMedicine.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HarmonyPatches/HealthAIUtility_FindBestMedicine.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="561">
+              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding>
                 <marker date="1528923742584" expanded="true" signature="0:68" ph="/* Karel Kroeze ... */" />
-                <marker date="1528923742584" expanded="true" signature="76:129" ph="..." />
+                <marker date="1528923742584" expanded="false" signature="76:129" ph="..." />
                 <marker date="1528923742584" expanded="true" signature="151:1291" ph="{...}" />
                 <marker date="1528923742584" expanded="true" signature="288:1289" ph="{...}" />
                 <marker date="1528923742584" expanded="true" signature="377:1283" ph="{...}" />
@@ -140,7 +128,6 @@
               <folding>
                 <marker date="1528923746506" expanded="true" signature="0:82" ph="/* WorkGiver_DoBill_GetMedicalCareCategory.cs ... */" />
                 <marker date="1528923746506" expanded="true" signature="90:164" ph="..." />
-                <marker date="1528923746506" expanded="true" signature="197:989" ph="{...}" />
                 <marker date="1528923746506" expanded="true" signature="353:987" ph="{...}" />
                 <marker date="1528923746506" expanded="true" signature="446:981" ph="{...}" />
                 <marker date="1528923746506" expanded="true" signature="531:676" ph="{...}" />
@@ -168,7 +155,7 @@
       <file leaf-file-name="WorkGiver_DoBill.cs" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BE84B525-0987-46F1-9B0E-477D669B192D/e0/8c21456b/WorkGiver_DoBill.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4080">
+            <state relative-caret-position="255">
               <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
             </state>
           </provider>
@@ -177,7 +164,7 @@
       <file leaf-file-name="HealthAIUtility.cs" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BE84B525-0987-46F1-9B0E-477D669B192D/d1/8fa4a4b2/HealthAIUtility.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
+            <state relative-caret-position="595">
               <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
             </state>
           </provider>
@@ -205,23 +192,23 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/f6/a27478f2/Hediff.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/91/d1125fe0/HediffComp_TendDuration.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/6a/a6f64d08/Mod.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/MainTabWindow_Pharmacist.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/43/a80fca7d/GameComponent.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Constants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PharmacistUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Resources.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/5f/bc6fcd60/LoadedModManager.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Pharmacist.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PharmacistSettings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pharmacist.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Resources.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PharmacistUtility.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MainTabWindow_Pharmacist.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Constants.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BE84B525-0987-46F1-9B0E-477D669B192D/d1/8fa4a4b2/HealthAIUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/55/5a5c0c95/Window.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/4f/8281f363/Listing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BE84B525-0987-46F1-9B0E-477D669B192D/e0/8c21456b/WorkGiver_DoBill.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HarmonyPatches/HealthAIUtility_FindBestMedicine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HarmonyPatches/WorkGiver_DoBill_GetMedicalCareCategory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BE84B525-0987-46F1-9B0E-477D669B192D/7d/07261da7/MedicalCareUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HarmonyPatches/WorkGiver_DoBill_GetMedicalCareCategory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/81/005910e9/OptionListingUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HarmonyPatches/HealthAIUtility_FindBestMedicine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/e4/243f2e20/DefGenerator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/0e/bc476028/FloatMenuOption.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/11/6bee2148/ListableOption.cs" root0="SKIP_HIGHLIGHTING" />
@@ -247,9 +234,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1273" />
+    <option name="x" value="922" />
     <option name="y" value="40" />
-    <option name="width" value="1294" />
+    <option name="width" value="1645" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -304,7 +291,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="do_not_show_unity_auto_save_notification" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../RelationsTab/Source/Fluffy_Relations/Fluffy_Relations.sln" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../WorkTab/Source/WorkTab.sln" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -337,6 +324,7 @@
       <workItem from="1524040172463" duration="14813000" />
       <workItem from="1528131262754" duration="8884000" />
       <workItem from="1528921339466" duration="2705000" />
+      <workItem from="1529004663512" duration="170000" />
     </task>
     <task id="LOCAL-00001" summary="update for A18, add operations patch, change severity logic.">
       <created>1523916287400</created>
@@ -391,7 +379,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43002000" />
+    <option name="totallyTimeSpent" value="43172000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,9 +403,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49966997" weight="0.32893288" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49636963" weight="0.22002201" />
       <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22447325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22771475" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4936407" visible="true" weight="0.20462047" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4936407" weight="0.20462047" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -435,25 +423,25 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14917491" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49966997" visible="true" weight="0.32893288" />
       <window_info anchor="bottom" id="Unit Tests" order="10" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49841017" weight="0.32934782" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49636963" weight="0.33223322" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50033003" side_tool="true" visible="true" weight="0.32893288" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49966997" visible="true" weight="0.32893288" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Build" order="14" sideWeight="0.4936407" weight="0.32934782" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
@@ -477,7 +465,7 @@
           <caret column="3" selection-start-column="3" selection-end-column="3" />
           <folding>
             <marker date="1528923767678" expanded="true" signature="0:52" ph="/* Resources.cs ... */" />
-            <marker date="1528923767678" expanded="true" signature="60:116" ph="..." />
+            <marker date="1528923767678" expanded="false" signature="60:116" ph="..." />
             <marker date="1528923767678" expanded="true" signature="138:1073" ph="{...}" />
             <marker date="1528923767678" expanded="true" signature="207:1071" ph="{...}" />
             <marker date="1528923767678" expanded="true" signature="631:1065" ph="{...}" />
@@ -525,7 +513,6 @@
           <folding>
             <marker date="1528921609369" expanded="true" signature="0:53" ph="/* Karel Kroeze ... */" />
             <marker date="1528921609369" expanded="false" signature="61:121" ph="..." />
-            <marker date="1528921609369" expanded="true" signature="143:4170" ph="{...}" />
             <marker date="1528921609369" expanded="true" signature="176:262" ph="{...}" />
             <marker date="1528921609369" expanded="true" signature="290:368" ph="{...}" />
             <marker date="1528921609369" expanded="true" signature="411:4168" ph="{...}" />
@@ -547,7 +534,6 @@
           <folding>
             <marker date="1528140144826" expanded="true" signature="0:60" ph="/* Window_Pharmacist.cs ... */" />
             <marker date="1528140144826" expanded="false" signature="68:246" ph="..." />
-            <marker date="1528140144826" expanded="true" signature="268:8128" ph="{...}" />
             <marker date="1528140144826" expanded="true" signature="327:8126" ph="{...}" />
             <marker date="1528140144826" expanded="true" signature="1325:2314" ph="{...}" />
             <marker date="1528140144826" expanded="true" signature="2410:3234" ph="{...}" />
@@ -580,26 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
           <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
-          <folding>
-            <marker date="1528137334372" expanded="true" signature="0:51" ph="/* Settings.cs ... */" />
-            <marker date="1528137334372" expanded="false" signature="59:209" ph="..." />
-            <marker date="1528137334372" expanded="true" signature="285:5076" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="412:459" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="505:2120" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="797:1396" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="831:1317" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="985:1256" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="1436:1569" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="1614:1761" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="1799:2110" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="2177:3683" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="2463:2881" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="2918:3035" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="3366:3496" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="3534:3673" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="3733:4897" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="4948:5070" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -617,7 +583,6 @@
           <folding>
             <marker date="1528921609369" expanded="true" signature="0:53" ph="/* Karel Kroeze ... */" />
             <marker date="1528921609369" expanded="false" signature="61:121" ph="..." />
-            <marker date="1528921609369" expanded="true" signature="143:4170" ph="{...}" />
             <marker date="1528921609369" expanded="true" signature="176:262" ph="{...}" />
             <marker date="1528921609369" expanded="true" signature="290:368" ph="{...}" />
             <marker date="1528921609369" expanded="true" signature="411:4168" ph="{...}" />
@@ -639,7 +604,6 @@
           <folding>
             <marker date="1528140144826" expanded="true" signature="0:60" ph="/* Window_Pharmacist.cs ... */" />
             <marker date="1528140144826" expanded="false" signature="68:246" ph="..." />
-            <marker date="1528140144826" expanded="true" signature="268:8128" ph="{...}" />
             <marker date="1528140144826" expanded="true" signature="327:8126" ph="{...}" />
             <marker date="1528140144826" expanded="true" signature="1325:2314" ph="{...}" />
             <marker date="1528140144826" expanded="true" signature="2410:3234" ph="{...}" />
@@ -682,7 +646,6 @@
           <folding>
             <marker date="1528921609369" expanded="true" signature="0:53" ph="/* Karel Kroeze ... */" />
             <marker date="1528921609369" expanded="false" signature="61:121" ph="..." />
-            <marker date="1528921609369" expanded="true" signature="143:4170" ph="{...}" />
             <marker date="1528921609369" expanded="true" signature="176:262" ph="{...}" />
             <marker date="1528921609369" expanded="true" signature="290:368" ph="{...}" />
             <marker date="1528921609369" expanded="true" signature="411:4168" ph="{...}" />
@@ -866,26 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
-          <folding>
-            <marker date="1528137334372" expanded="true" signature="0:51" ph="/* Settings.cs ... */" />
-            <marker date="1528137334372" expanded="false" signature="59:209" ph="..." />
-            <marker date="1528137334372" expanded="true" signature="285:5076" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="412:459" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="505:2120" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="797:1396" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="831:1317" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="985:1256" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="1436:1569" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="1614:1761" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="1799:2110" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="2177:3683" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="2463:2881" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="2918:3035" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="3366:3496" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="3534:3673" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="3733:4897" ph="{...}" />
-            <marker date="1528137334372" expanded="true" signature="4948:5070" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -907,7 +850,6 @@
           <folding>
             <marker date="1528140144826" expanded="true" signature="0:60" ph="/* Window_Pharmacist.cs ... */" />
             <marker date="1528140144826" expanded="false" signature="68:246" ph="..." />
-            <marker date="1528140144826" expanded="true" signature="268:8128" ph="{...}" />
             <marker date="1528140144826" expanded="true" signature="327:8126" ph="{...}" />
             <marker date="1528140144826" expanded="true" signature="1325:2314" ph="{...}" />
             <marker date="1528140144826" expanded="true" signature="2410:3234" ph="{...}" />
@@ -931,14 +873,14 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BE84B525-0987-46F1-9B0E-477D669B192D/e0/8c21456b/WorkGiver_DoBill.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4080">
+        <state relative-caret-position="255">
           <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BE84B525-0987-46F1-9B0E-477D669B192D/d1/8fa4a4b2/HealthAIUtility.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
+        <state relative-caret-position="595">
           <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
@@ -950,21 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HarmonyPatches/HealthAIUtility_FindBestMedicine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding>
-            <marker date="1528923742584" expanded="true" signature="0:68" ph="/* Karel Kroeze ... */" />
-            <marker date="1528923742584" expanded="true" signature="76:129" ph="..." />
-            <marker date="1528923742584" expanded="true" signature="151:1291" ph="{...}" />
-            <marker date="1528923742584" expanded="true" signature="288:1289" ph="{...}" />
-            <marker date="1528923742584" expanded="true" signature="377:1283" ph="{...}" />
-            <marker date="1528923742584" expanded="true" signature="614:705" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HarmonyPatches/WorkGiver_DoBill_GetMedicalCareCategory.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -972,7 +899,6 @@
           <folding>
             <marker date="1528923746506" expanded="true" signature="0:82" ph="/* WorkGiver_DoBill_GetMedicalCareCategory.cs ... */" />
             <marker date="1528923746506" expanded="true" signature="90:164" ph="..." />
-            <marker date="1528923746506" expanded="true" signature="197:989" ph="{...}" />
             <marker date="1528923746506" expanded="true" signature="353:987" ph="{...}" />
             <marker date="1528923746506" expanded="true" signature="446:981" ph="{...}" />
             <marker date="1528923746506" expanded="true" signature="531:676" ph="{...}" />
@@ -996,12 +922,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PharmacistUtility.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="476">
           <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
           <folding>
             <marker date="1528921609369" expanded="true" signature="0:53" ph="/* Karel Kroeze ... */" />
             <marker date="1528921609369" expanded="false" signature="61:121" ph="..." />
-            <marker date="1528921609369" expanded="true" signature="143:4170" ph="{...}" />
             <marker date="1528921609369" expanded="true" signature="176:262" ph="{...}" />
             <marker date="1528921609369" expanded="true" signature="290:368" ph="{...}" />
             <marker date="1528921609369" expanded="true" signature="411:4168" ph="{...}" />
@@ -1018,15 +943,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="459">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding>
             <marker date="1528923767678" expanded="true" signature="0:52" ph="/* Resources.cs ... */" />
-            <marker date="1528923767678" expanded="true" signature="60:116" ph="..." />
+            <marker date="1528923767678" expanded="false" signature="60:116" ph="..." />
             <marker date="1528923767678" expanded="true" signature="138:1073" ph="{...}" />
             <marker date="1528923767678" expanded="true" signature="207:1071" ph="{...}" />
             <marker date="1528923767678" expanded="true" signature="631:1065" ph="{...}" />
             <marker date="1528923767678" expanded="true" signature="691:972" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HarmonyPatches/HealthAIUtility_FindBestMedicine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding>
+            <marker date="1528923742584" expanded="true" signature="0:68" ph="/* Karel Kroeze ... */" />
+            <marker date="1528923742584" expanded="false" signature="76:129" ph="..." />
+            <marker date="1528923742584" expanded="true" signature="151:1291" ph="{...}" />
+            <marker date="1528923742584" expanded="true" signature="288:1289" ph="{...}" />
+            <marker date="1528923742584" expanded="true" signature="377:1283" ph="{...}" />
+            <marker date="1528923742584" expanded="true" signature="614:705" ph="{...}" />
           </folding>
         </state>
       </provider>

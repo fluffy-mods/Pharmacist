@@ -33,7 +33,7 @@
     <Reference Include="0Harmony, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\..\..\harmony\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp, Version=1.0.6739.40406, Culture=neutral, PublicKeyToken=null">
+    <Reference Include="Assembly-CSharp, Version=1.0.6742.39865, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\..\..\..\..\Games\steamapps\common\RimWorld\RimWorldWin_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
