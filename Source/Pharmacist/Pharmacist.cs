@@ -8,7 +8,9 @@ namespace Pharmacist
     {
         public Pharmacist( ModContentPack content ) : base( content )
         {
+#if DEBUG
             HarmonyInstance.DEBUG = true;
+#endif
             var harmony = HarmonyInstance.Create("fluffy.rimworld.pharmacist");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
