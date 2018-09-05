@@ -65,7 +65,7 @@ namespace Pharmacist
             return PotentiallyLethalDisease( h ) && 
                    !compImmunizable.FullyImmune && 
                    h.Severity > Constants.LethalDiseaseLowerBound &&
-                   compImmunizable.Immunity + PharmacistSettings.medicalCare.DiseaseMargin < h.Severity;
+                   compImmunizable.Immunity < PharmacistSettings.medicalCare.DiseaseMargin + h.Severity;
         }
 
         private static bool DeathByAThousandCuts( Pawn patient )
