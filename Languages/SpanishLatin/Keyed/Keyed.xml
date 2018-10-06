@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Fluffy.Pharmacist>Pharmacist</Fluffy.Pharmacist>
+	<Fluffy.Pharmacist.Tip>No todas las heridas son iguales; establezca pautas sobre qué medicamento usar y en qué momento.</Fluffy.Pharmacist.Tip>
+
+	<Fluffy.Pharmacist.Settings.Title>Configuración de Pharmacist</Fluffy.Pharmacist.Settings.Title>
+	<Fluffy.Pharmacist.Settings.Tip></Fluffy.Pharmacist.Settings.Tip>
+
+	<Fluffy.Pharmacist.Population.Colonist>Colonos</Fluffy.Pharmacist.Population.Colonist>
+	<Fluffy.Pharmacist.Population.Prisoner>Prisioneros</Fluffy.Pharmacist.Population.Prisoner>
+	<Fluffy.Pharmacist.Population.Animal>Animales</Fluffy.Pharmacist.Population.Animal>
+	<Fluffy.Pharmacist.Population.Guest>Visitantes</Fluffy.Pharmacist.Population.Guest>
+
+	<Fluffy.Pharmacist.Severity.Minor>Heridas menores</Fluffy.Pharmacist.Severity.Minor>
+	<Fluffy.Pharmacist.Severity.Major>Heridas mayores</Fluffy.Pharmacist.Severity.Major>
+	<Fluffy.Pharmacist.Severity.LifeThreathening>Heridas mortales</Fluffy.Pharmacist.Severity.LifeThreathening>
+	<Fluffy.Pharmacist.Severity.Operation>Operaciones</Fluffy.Pharmacist.Severity.Operation>
+
+	<Fluffy.Pharmacist.Severity.Minor.Tip>Moretones, enfermedades no mortales y pequeños cortes.</Fluffy.Pharmacist.Severity.Minor.Tip>
+	<Fluffy.Pharmacist.Severity.Major.Tip>Grandes cortes y enfermedades potencialmente mortales.</Fluffy.Pharmacist.Severity.Major.Tip>
+	<Fluffy.Pharmacist.Severity.LifeThreathening.Tip>Heridas potencialmente mortales, ataques al corazón y enfermedades casi mortales.</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
+	<Fluffy.Pharmacist.Severity.Operation.Tip>Todas las operaciones, trasplantes y reemplazos de miembros.</Fluffy.Pharmacist.Severity.Operation.Tip>
+
+	<Fluffy.Pharmacist.DiseaseMargin>Margen de inmunidad: {0}</Fluffy.Pharmacist.DiseaseMargin>
+	<Fluffy.Pharmacist.DiseaseMargin.Tip>Margen de seguridad empleado en el tratamiento de enfermedades. \n\nSi la inmunidad es menor que la progresión de la enfermedad más este margen, la enfermedad se considerará una lesión potencialmente mortal.\n\nPor ejemplo, si una enfermedad ha progresado un 75%, la inmunidad está en un 80% y el margen es del 10%, la enfermedad se clasificará como potencialmente mortal. Si el margen fuera del 5%, la enfermedad se clasificaría como lesión grave.</Fluffy.Pharmacist.DiseaseMargin.Tip>
+	<Fluffy.Pharmacist.MinorWoundsThreshold>Límite de cortes menores: {0}</Fluffy.Pharmacist.MinorWoundsThreshold>
+	<Fluffy.Pharmacist.MinorWoundsThreshold.Tip>Si el número de cortes menores es mayor que este límite, se tratan como una lesión mayor, independientemente de la tasa de sangrado. \n\nÚtil para prevenir la "muerte por mil cortes", donde un gran número de pequeños cortes pueden causar múltiples infecciones y, en última instancia, la muerte.</Fluffy.Pharmacist.MinorWoundsThreshold.Tip>
+
+</LanguageData>
