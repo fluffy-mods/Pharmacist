@@ -3,7 +3,7 @@
   <name>Pharmacist</name>
   <author>Fluffy</author>
   <url>https://ludeon.com/forums/index.php?topic=16120</url>
-  <targetVersion>0.19.2009</targetVersion>
+  <targetVersion>1.0.2057</targetVersion>
   <description>Not all injuries are equal; pharmacist prescribes the right medicine for the job.
 
 &lt;size=24&gt;Important&lt;/size&gt;
@@ -39,10 +39,10 @@ Dango998:    Simplified Chinese translation
 SteamJay:    Swedish translation
 FAIL! chapi:    German translation
 Vokania:    Korean translation
-53N4:    
+53N4:    Spanish translation
 
 &lt;size=24&gt;Version&lt;/size&gt;
-This is version 1.22.123, for RimWorld 0.19.2009.
+This is version 2.0.126, for RimWorld 1.0.2057.
 
 </description>
 </ModMetaData>
