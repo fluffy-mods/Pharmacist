@@ -77,27 +77,47 @@ namespace Pharmacist
             Find.WindowStack.Add( new FloatMenu( options ) );
         }
 
+        private float _optionsHeight = -1f;
+        private Vector2 _optionsScrollPosition = Vector2.zero;
         private void DrawOptions( Rect canvas )
         {
             // draw background
             GUI.DrawTexture( canvas, SlightlyDarkBackground );
 
-            var row = new Rect( canvas.xMin + Constants.Margin,
-                canvas.yMin + Constants.Margin,
-                canvas.width - Constants.Margin * 2,
+            var viewRect = new Rect(
+                canvas.xMin,
+                canvas.yMin,
+                canvas.width - 16f,
+                _optionsHeight );
+
+            var row = new Rect(
+                viewRect.xMin + Constants.Margin,
+                viewRect.yMin + Constants.Margin,
+                viewRect.width - Constants.Margin * 2,
                 RowHeight );
-            
+
+            Widgets.BeginScrollView( canvas, ref _optionsScrollPosition, viewRect );
+
             Widgets.Label( row, "Fluffy.Pharmacist.DiseaseMargin".Translate( PharmacistSettings.medicalCare.DiseaseMargin.ToStringPercent() ) );
             TooltipHandler.TipRegion( row, "Fluffy.Pharmacist.DiseaseMargin.Tip".Translate() );
             row.y += RowHeight;
             PharmacistSettings.medicalCare.DiseaseMargin = Widgets.HorizontalSlider( row, PharmacistSettings.medicalCare.DiseaseMargin, 0f, 1f, roundTo: .01f );
             row.y += RowHeight;
-            
+
+            Widgets.Label( row, "Fluffy.Pharmacist.DiseaseThreshold".Translate( PharmacistSettings.medicalCare.DiseaseThreshold.ToStringPercent() ) );
+            TooltipHandler.TipRegion( row, "Fluffy.Pharmacist.DiseaseThreshold.Tip".Translate() );
+            row.y += RowHeight;
+            PharmacistSettings.medicalCare.DiseaseThreshold = Widgets.HorizontalSlider( row, PharmacistSettings.medicalCare.DiseaseThreshold, 0f, 1f, roundTo: .01f );
+            row.y += RowHeight;
+
             Widgets.Label( row, "Fluffy.Pharmacist.MinorWoundsThreshold".Translate( PharmacistSettings.medicalCare.MinorWoundsThreshold ) );
             TooltipHandler.TipRegion( row, "Fluffy.Pharmacist.MinorWoundsThreshold.Tip".Translate() );
             row.y += RowHeight;
             PharmacistSettings.medicalCare.MinorWoundsThreshold = (int)Widgets.HorizontalSlider( row, PharmacistSettings.medicalCare.MinorWoundsThreshold, 2, 20, roundTo: 1 );
-            row.y += RowHeight;
+
+            Widgets.EndScrollView();
+
+            _optionsHeight = row.yMax - canvas.yMin;
         }
 
         private void DrawCareSelectors( Rect canvas )

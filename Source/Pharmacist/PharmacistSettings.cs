@@ -25,6 +25,7 @@ namespace Pharmacist
             private Dictionary<Population, PopulationCare> _populationCare = new Dictionary<Population, PopulationCare>();
             private float _diseaseMargin = 0.1f;
             private int _minorWoundsThreshold = 5;
+            private float _diseaseThreshold = 0.1f;
             public PopulationCare this[ Population index ]
             {
                 get
@@ -47,6 +48,12 @@ namespace Pharmacist
                 get => _diseaseMargin;
             }
 
+            public float DiseaseThreshold
+            {
+                protected internal set => _diseaseThreshold = value;
+                get => _diseaseThreshold;
+            }
+
             public int MinorWoundsThreshold
             {
                 protected internal set => _minorWoundsThreshold = value;
@@ -57,6 +64,7 @@ namespace Pharmacist
             {
                 Scribe_Collections.Look( ref _populationCare, "Populations", LookMode.Value, LookMode.Deep );
                 Scribe_Values.Look( ref _diseaseMargin, "DiseaseMargin", 0.1f );
+                Scribe_Values.Look( ref _diseaseThreshold, "DiseaseThreshold", 0.1f  );
                 Scribe_Values.Look( ref _minorWoundsThreshold, "MinorWoundsThreshold", 5 );
             }
         }
