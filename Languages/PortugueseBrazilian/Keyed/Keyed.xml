@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Fluffy.Pharmacist>Farmacêutico</Fluffy.Pharmacist>
+  <Fluffy.Pharmacist.Tip>Nem todas as feridas são iguais; definir diretrizes para qual medicamento usar quando.</Fluffy.Pharmacist.Tip>
+
+  <Fluffy.Pharmacist.Settings.Title>Configurações farmacêutico</Fluffy.Pharmacist.Settings.Title>
+  <Fluffy.Pharmacist.Settings.Tip></Fluffy.Pharmacist.Settings.Tip>
+
+  <Fluffy.Pharmacist.Population.Colonist>Colonos</Fluffy.Pharmacist.Population.Colonist>
+  <Fluffy.Pharmacist.Population.Prisoner>Prisioneiros</Fluffy.Pharmacist.Population.Prisoner>
+  <Fluffy.Pharmacist.Population.Animal>Animais</Fluffy.Pharmacist.Population.Animal>
+  <Fluffy.Pharmacist.Population.Guest>Hóspedes</Fluffy.Pharmacist.Population.Guest>
+
+  <Fluffy.Pharmacist.Severity.Minor>Feridas menores</Fluffy.Pharmacist.Severity.Minor>
+  <Fluffy.Pharmacist.Severity.Major>principais feridas</Fluffy.Pharmacist.Severity.Major>
+  <Fluffy.Pharmacist.Severity.LifeThreathening>Feridas com risco de vida</Fluffy.Pharmacist.Severity.LifeThreathening>
+  <Fluffy.Pharmacist.Severity.Operation>Operações</Fluffy.Pharmacist.Severity.Operation>
+
+  <Fluffy.Pharmacist.Severity.Minor.Tip>Contusões, doenças não fatais e pequenos cortes.</Fluffy.Pharmacist.Severity.Minor.Tip>
+  <Fluffy.Pharmacist.Severity.Major.Tip>Grandes cortes e doenças potencialmente fatais.</Fluffy.Pharmacist.Severity.Major.Tip>
+  <Fluffy.Pharmacist.Severity.LifeThreathening.Tip>Feridas fatais, ataques cardíacos e doenças quase fatais.</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
+  <Fluffy.Pharmacist.Severity.Operation.Tip>All operações, transplantes e substituição de membros.</Fluffy.Pharmacist.Severity.Operation.Tip>
+
+  <Fluffy.Pharmacist.DiseaseMargin>Margem de imunidade de doença: {0}</Fluffy.Pharmacist.DiseaseMargin>
+  <Fluffy.Pharmacist.DiseaseMargin.Tip>Margem de segurança utilizada no tratamento de doenças. \n\nIf immunity is lower than disease progress plus this margin (and severity is higher than the minimum threshold), the disease is treated as a life-threathening injury.\n\nFor example, if a disease has progressed 75%, immunity is at 80%, and the margin is 10%, the disease will be classed as life-threatening. If the threshold was 5%, the disease would be classed as a major injury instead.</Fluffy.Pharmacist.DiseaseMargin.Tip>
+  <Fluffy.Pharmacist.DiseaseThreshold>Limiar de gravidade mínima da doença: {0}</Fluffy.Pharmacist.DiseaseThreshold>
+  <Fluffy.Pharmacist.DiseaseThreshold.Tip>A gravidade mínima antes de uma doença pode ser classificada como potencialmente letal. \n\nIf a gravidade é maior do que esse limiar (e a imunidade é menor do que a gravidade mais a margem de segurança), a doença é tratada como uma lesão fatal.</Fluffy.Pharmacist.DiseaseThreshold.Tip>
+  <Fluffy.Pharmacist.MinorWoundsThreshold>Limiar de cortes menores: {0}</Fluffy.Pharmacist.MinorWoundsThreshold>
+  <Fluffy.Pharmacist.MinorWoundsThreshold.Tip>Se o número de cortes menores for maior que esse limite, eles serão tratados como uma lesão grave, independentemente da taxa de sangramento. \ n \ nÚtil para evitar 'morte por mil cortes', onde um grande número de pequenos cortes pode causar múltiplas infecções - e, finalmente, a morte.</Fluffy.Pharmacist.MinorWoundsThreshold.Tip>
+
+</LanguageData>
