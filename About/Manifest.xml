@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
   <version>2.3.133</version>
-  <manifestUri>https://rawgit.com/FluffierThanThou/Pharmacist/master/About/Manifest.xml</manifestUri>
+  <manifestUri>https://cdn.jsdelivr.net/gh/FluffierThanThou/Pharmacist/About/Manifest.xml</manifestUri>
   <downloadUri>https://github.com/FluffierThanThou/Pharmacist/releases/v2.3.133</downloadUri>
 </Manifest>
