@@ -53,6 +53,8 @@ namespace Pharmacist
 
         private static bool PotentiallyLethalDisease( Hediff h )
         {
+            if ( !h.TendableNow() )
+                return false;
             if ( h.def.lethalSeverity <= 0f )
                 return false;
             var compImmunizable = h.TryGetComp<HediffComp_Immunizable>();
