@@ -22,4 +22,11 @@
   <Fluffy.Pharmacist.Severity.LifeThreathening.Tip>致命伤害，失血或心脏病。</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
   <Fluffy.Pharmacist.Severity.Operation.Tip>所有手术，器官移植和肢体替换。</Fluffy.Pharmacist.Severity.Operation.Tip>
 
+  <Fluffy.Pharmacist.DiseaseMargin>疾病免疫性安全边距: {0}</Fluffy.Pharmacist.DiseaseMargin>
+	<Fluffy.Pharmacist.DiseaseMargin.Tip>治疗疾病时严重性到免疫性的安全边距。 \n\n如果疾病严重性加上这个边距超过了疾病免疫性（并且严重性超过了安全临界值），医生将视为致命伤害来治疗。\n\n例：如果一次伤口感染严重性达到了80%，患者的免疫性达到了85%，安全疾病边距为10%，那么这次伤口感染将使用你设定的致命伤害级别的医疗手段来治疗。如果边距只有5%，那么这次伤口感染只会用默认的重伤级别的医疗手段来治疗。</Fluffy.Pharmacist.DiseaseMargin.Tip>
+	<Fluffy.Pharmacist.DiseaseThreshold>疾病严重性安全临界值: {0}</Fluffy.Pharmacist.DiseaseThreshold>
+	<Fluffy.Pharmacist.DiseaseThreshold.Tip>超过此严重性的疾病会被视为致命的。 \n\n如果疾病严重性超过了这个临界值（并且免疫性低于严重性加上免疫性安全边距），医生将视为致命伤害来治疗。</Fluffy.Pharmacist.DiseaseThreshold.Tip>
+	<Fluffy.Pharmacist.MinorWoundsThreshold>轻伤数量临界值: {0}</Fluffy.Pharmacist.MinorWoundsThreshold>
+	<Fluffy.Pharmacist.MinorWoundsThreshold.Tip>如果轻伤的数量达到了这个临界值，那么无论流血多少，医生都会视为重伤来治疗。 \n\n主要用来防止“凌迟至死”，即过多的轻伤有可能导致多项感染，最终不治身亡。</Fluffy.Pharmacist.MinorWoundsThreshold.Tip>
+
 </LanguageData>
