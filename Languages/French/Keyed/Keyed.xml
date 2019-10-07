@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<Fluffy.Pharmacist>Pharmacien</Fluffy.Pharmacist>
+	<Fluffy.Pharmacist>Pharmacie</Fluffy.Pharmacist>
 	<Fluffy.Pharmacist.Tip>Toutes les blessures ne se valent pas; Etablir les directives pour utiliser quels médicaments et quand.</Fluffy.Pharmacist.Tip>
 
-	<Fluffy.Pharmacist.Settings.Title>Paramètres de pharmacien</Fluffy.Pharmacist.Settings.Title>
+	<Fluffy.Pharmacist.Settings.Title>Paramètres de pharmacie</Fluffy.Pharmacist.Settings.Title>
 	<Fluffy.Pharmacist.Settings.Tip></Fluffy.Pharmacist.Settings.Tip>
 
 	<Fluffy.Pharmacist.Population.Colonist>Colons</Fluffy.Pharmacist.Population.Colonist>
