@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Fluffy.Pharmacist>Pharmacie</Fluffy.Pharmacist>
+	<Fluffy.Pharmacist.Tip>Toutes les blessures ne se valent pas; Etablir les directives pour utiliser quels médicaments et quand.</Fluffy.Pharmacist.Tip>
+
+	<Fluffy.Pharmacist.Settings.Title>Paramètres de pharmacie</Fluffy.Pharmacist.Settings.Title>
+	<Fluffy.Pharmacist.Settings.Tip></Fluffy.Pharmacist.Settings.Tip>
+
+	<Fluffy.Pharmacist.Population.Colonist>Colons</Fluffy.Pharmacist.Population.Colonist>
+	<Fluffy.Pharmacist.Population.Prisoner>Prisonniers</Fluffy.Pharmacist.Population.Prisoner>
+	<Fluffy.Pharmacist.Population.Animal>Animaux</Fluffy.Pharmacist.Population.Animal>
+	<Fluffy.Pharmacist.Population.Guest>Visiteurs</Fluffy.Pharmacist.Population.Guest>
+
+	<Fluffy.Pharmacist.Severity.Minor>Blessure mineure</Fluffy.Pharmacist.Severity.Minor>
+	<Fluffy.Pharmacist.Severity.Major>Blessure majeure</Fluffy.Pharmacist.Severity.Major>
+	<Fluffy.Pharmacist.Severity.LifeThreathening>Blessure mortelle</Fluffy.Pharmacist.Severity.LifeThreathening>
+	<Fluffy.Pharmacist.Severity.Operation>Opérations</Fluffy.Pharmacist.Severity.Operation>
+
+	<Fluffy.Pharmacist.Severity.Minor.Tip>Contusions, maladies bénignes et petites plaies.</Fluffy.Pharmacist.Severity.Minor.Tip>
+	<Fluffy.Pharmacist.Severity.Major.Tip>Grandes plaies et maladies potentiellement mortelles.</Fluffy.Pharmacist.Severity.Major.Tip>
+	<Fluffy.Pharmacist.Severity.LifeThreathening.Tip>Blessures mortelles, attaque cardiaque et blessures graves.</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
+	<Fluffy.Pharmacist.Severity.Operation.Tip>Toutes opérations, transplantations et greffes de membres.</Fluffy.Pharmacist.Severity.Operation.Tip>
+
+	<Fluffy.Pharmacist.DiseaseMargin>Marge d'immunité des maladies: {0}</Fluffy.Pharmacist.DiseaseMargin>
+	<Fluffy.Pharmacist.DiseaseMargin.Tip>Marge de sécurité pour traiter les maladies. \n\nSi l'immunité est inférieure à l'évolution de la maladie plus la marge (et la sévérité est supérieure au seuil minimum), alors la maladie est traitée comme une blessure mortelle.\n\nPar exemple, si le progès de la maladie est de 75%, l'immunité à 80%, et la marge de 10%, la maladie sera considérée comme mortelle. Si le seuil était à 5%, la maladie aurait été considéré comme potentiellement mortelle.</Fluffy.Pharmacist.DiseaseMargin.Tip>
+	<Fluffy.Pharmacist.DiseaseThreshold>Seuil minimum sévérité de la maladie: {0}</Fluffy.Pharmacist.DiseaseThreshold>
+	<Fluffy.Pharmacist.DiseaseThreshold.Tip>Sévérité minimum avant de traiter la maladie comme potentiellement mortelle. \n\nSi la sévérité est supérieure à ce seuil (et l'immunité inférieure à la sévérité plus une marge de sécurité), la maladie sera traitée comme mortelle.</Fluffy.Pharmacist.DiseaseThreshold.Tip>
+	<Fluffy.Pharmacist.MinorWoundsThreshold>Seuil pour plaies mineures: {0}</Fluffy.Pharmacist.MinorWoundsThreshold>
+	<Fluffy.Pharmacist.MinorWoundsThreshold.Tip>Si le nombre de plaies mineures est supérieur à ce seuil, elles seront traitées comme une blessure majeure peu importe la quantité de saignement. \n\nUtile pour éviter une "mort par mille coupures", quand une grande quantité de coupures cause plusieurs infections - et finalement, la mort.</Fluffy.Pharmacist.MinorWoundsThreshold.Tip>
+
+</LanguageData>
