@@ -2,15 +2,14 @@
 // HealthAIUtility_FindBestMedicine.cs
 // 2017-02-11
 
-using Harmony;
+using HarmonyLib;
 using RimWorld;
 using Verse;
 using Verse.AI;
 
 namespace Pharmacist
 {
-    [HarmonyPatch(typeof( HealthAIUtility ))]
-    [HarmonyPatch("FindBestMedicine")]
+    [HarmonyPatch(typeof( HealthAIUtility ), nameof( HealthAIUtility.FindBestMedicine ))]
     public class HealthAIUtility_FindBestMedicine
     {
         public static bool Prefix( Pawn healer, Pawn patient, ref Thing __result )

@@ -1,5 +1,5 @@
 ﻿using System.Reflection;
-using Harmony;
+using HarmonyLib;
 using Verse;
 
 namespace Pharmacist
@@ -9,9 +9,9 @@ namespace Pharmacist
         public Pharmacist( ModContentPack content ) : base( content )
         {
 #if DEBUG
-            HarmonyInstance.DEBUG = true;
+            Harmony.DEBUG = true;
 #endif
-            var harmony = HarmonyInstance.Create("fluffy.rimworld.pharmacist");
+            var harmony = new Harmony("fluffy.pharmacist" );
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
     }

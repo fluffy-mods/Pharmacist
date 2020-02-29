@@ -1,7 +1,7 @@
 ﻿// Resources.cs
 // Copyright Karel Kroeze, 2018-2018
 
-using Harmony;
+using HarmonyLib;
 using RimWorld;
 using UnityEngine;
 using Verse;

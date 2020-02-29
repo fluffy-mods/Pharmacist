@@ -1,15 +1,13 @@
 ﻿// WorkGiver_DoBill_GetMedicalCareCategory.cs
 // Copyright Karel Kroeze, 2018-2018
 
-using System.Net.NetworkInformation;
-using Harmony;
+using HarmonyLib;
 using RimWorld;
 using Verse;
 
 namespace Pharmacist.Properties
 {
-    [HarmonyPatch(typeof(WorkGiver_DoBill))]
-    [HarmonyPatch("GetMedicalCareCategory")]
+    [HarmonyPatch(typeof(WorkGiver_DoBill), "GetMedicalCareCategory")]
     public static class WorkGiver_DoBill_GetMedicalCareCategory
     {
         public static bool Prefix( Thing billGiver, ref MedicalCareCategory __result )
