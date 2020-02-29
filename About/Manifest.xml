@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-  <version>2.5.136</version>
-  <manifestUri>https://cdn.jsdelivr.net/gh/fluffy-mods/Pharmacist/About/Manifest.xml</manifestUri>
-  <downloadUri>https://github.com/fluffy-mods/Pharmacist/releases/v2.5.136</downloadUri>
+  <version>2.6.137</version>
+  <manifestUri>https://raw.githubusercontent.com/fluffy-mods/Pharmacist/1/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/fluffy-mods/Pharmacist/releases/v2.6.137</downloadUri>
 </Manifest>
