@@ -45,11 +45,11 @@ A Steam User:    Russian translation
 CrapoFR:    French translation
 
 &lt;size=24&gt;Version&lt;/size&gt;
-This is version 2.6.137, for RimWorld 1.1.2558.
+This is version 2.7.138, for RimWorld 1.1.2559.
 
 </description>
   <supportedVersions>
-    <li>1</li>
+    <li>1.1</li>
   </supportedVersions>
   <packageId>fluffy.pharmacist</packageId>
   <modDependencies>
