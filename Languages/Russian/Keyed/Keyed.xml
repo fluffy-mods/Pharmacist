@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<Fluffy.Pharmacist>Pharmacist</Fluffy.Pharmacist>
+	<Fluffy.Pharmacist>Фармацевт</Fluffy.Pharmacist>
 	<Fluffy.Pharmacist.Tip>Не все раненые равны; установите уровень лекарст для каждого из них.</Fluffy.Pharmacist.Tip>
 
-	<Fluffy.Pharmacist.Settings.Title>Настройка Pharmacist</Fluffy.Pharmacist.Settings.Title>
+	<Fluffy.Pharmacist.Settings.Title>Настройка Фармацевта</Fluffy.Pharmacist.Settings.Title>
 	<Fluffy.Pharmacist.Settings.Tip></Fluffy.Pharmacist.Settings.Tip>
 
 	<Fluffy.Pharmacist.Population.Colonist>Колонист</Fluffy.Pharmacist.Population.Colonist>
@@ -17,14 +17,16 @@
 	<Fluffy.Pharmacist.Severity.LifeThreathening>Жестокая травма</Fluffy.Pharmacist.Severity.LifeThreathening>
 	<Fluffy.Pharmacist.Severity.Operation>Операции</Fluffy.Pharmacist.Severity.Operation>
 
-	<Fluffy.Pharmacist.Severity.Minor.Tip>Ушибы, не смертельное заболевание и небольшие сокращения.</Fluffy.Pharmacist.Severity.Minor.Tip>
-	<Fluffy.Pharmacist.Severity.Major.Tip>Большие сокращения и потенциально смертельные заболевания.</Fluffy.Pharmacist.Severity.Major.Tip>
-	<Fluffy.Pharmacist.Severity.LifeThreathening.Tip>LЖизненные угрозы, сердечные приступы и почти смертельные заболевания.</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
+	<Fluffy.Pharmacist.Severity.Minor.Tip>Ушибы, не смертельное заболевание и небольшие порезы.</Fluffy.Pharmacist.Severity.Minor.Tip>
+	<Fluffy.Pharmacist.Severity.Major.Tip>Большие порезы и потенциально смертельные заболевания.</Fluffy.Pharmacist.Severity.Major.Tip>
+	<Fluffy.Pharmacist.Severity.LifeThreathening.Tip>Жизненные угрозы, сердечные приступы и почти смертельные заболевания.</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
 	<Fluffy.Pharmacist.Severity.Operation.Tip>Все операции, пересадка и замена конечностей.</Fluffy.Pharmacist.Severity.Operation.Tip>
 
 	<Fluffy.Pharmacist.DiseaseMargin>Порог иммунитета болезни: {0}</Fluffy.Pharmacist.DiseaseMargin>
-	<Fluffy.Pharmacist.DiseaseMargin.Tip>Защитный запас, используемый при лечении заболеваний. \n\nЕсли иммунитет ниже, чем прогресс болезни то этот запас используется.\n\nНапример, если заболевание прогрессирует на 75%, а иммунитет 80%, и запас 10%, болезнь будет классифицироваться как опасная для жизни. Если порог 5%, вместо этого болезнь будет классифицирована как серьезная травма.</Fluffy.Pharmacist.DiseaseMargin.Tip>
-	<Fluffy.Pharmacist.MinorWoundsThreshold>Порог минимальных разрезов: {0}</Fluffy.Pharmacist.MinorWoundsThreshold>
-	<Fluffy.Pharmacist.MinorWoundsThreshold.Tip>Если количество мелких разрезов больше этого порога, они рассматриваются как серьезная травма, независимо от скорости кровотечения. \n\nПолезно для предотвращения 'смерти тысячами разрезов', где большое количество небольших порезов может вызвать множественные инфекции.</Fluffy.Pharmacist.MinorWoundsThreshold.Tip>
-
+	<Fluffy.Pharmacist.DiseaseMargin.Tip>Защитный запас, используемый при лечении заболеваний. \n\nЕсли иммунитет ниже, чем прогресс болезни плюс этот запас(а степень тяжести выше минимального порога).\n\nНапример, если заболевание 75%, а иммунитет 80% и запас 10%, болезнь будет классифицироваться как опасная для жизни. Если порог 5%, вместо этого болезнь будет классифицирована как серьезная травма.</Fluffy.Pharmacist.DiseaseMargin.Tip>
+	<Fluffy.Pharmacist.DiseaseThreshold>Минимальный порог заболевания: {0}</Fluffy.Pharmacist.DiseaseThreshold>
+	<Fluffy.Pharmacist.DiseaseThreshold.Tip>Минимальная степень тяжести заболевания, которая может быть классифицирована как потенциально смертельная. \n\nЕсли болезнь выше этого порога(и иммунитет ниже, чем уровень болезни плюс порог), болезнь расматривается как опасная для жизни травма.</Fluffy.Pharmacist.DiseaseThreshold.Tip>
+	<Fluffy.Pharmacist.MinorWoundsThreshold>Минимальное количество порезов: {0}</Fluffy.Pharmacist.MinorWoundsThreshold>
+	<Fluffy.Pharmacist.MinorWoundsThreshold.Tip>Если количество мелких порезов больше этого порога, они рассматриваются как серьезная травма, независимо от скорости кровотечения. \n\nПолезно для предотвращения 'смерти тысячами порезов', где большое количество небольших порезов может вызвать множественные инфекции.</Fluffy.Pharmacist.MinorWoundsThreshold.Tip>
+	
 </LanguageData>
