@@ -36,6 +36,7 @@ Some injuries might be diagnosed wrong, and receive medicine that is either not 
  - MrCaka:	Brazilean Portuguese translation
  - chrisxlite:	Update Simplified Chinese translation
  - A Steam User:	Russian translation
+ - dodther:	Russian translation
  - CrapoFR:	French translation
 
 # Think you found a bug? 
@@ -59,4 +60,4 @@ Show your appreciation by buying me a coffee (or contribute towards a nice singl
 [![I Have a Black Dog](https://i.ibb.co/ss59Rwy/New-Project-2.png)](https://www.youtube.com/watch?v=XiCrniLQGYc)
 
 # Version
-This is version 2.7.138, for RimWorld 1.1.2559.
+This is version 2.8.139, for RimWorld 1.1.2579.
