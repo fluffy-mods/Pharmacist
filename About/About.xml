@@ -46,11 +46,11 @@ dodther:    Russian translation
 CrapoFR:    French translation
 
 &lt;size=24&gt;Version&lt;/size&gt;
-This is version 2.8.139, for RimWorld 1.1.2654.
+This is version 2.9.140, for RimWorld 1.2.2719.
 
 </description>
   <supportedVersions>
-    <li>1.1</li>
+    <li>1.2</li>
   </supportedVersions>
   <packageId>fluffy.pharmacist</packageId>
   <modDependencies>
