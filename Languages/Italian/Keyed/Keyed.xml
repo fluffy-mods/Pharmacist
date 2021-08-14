@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Fluffy.Pharmacist>Farmacista</Fluffy.Pharmacist>
+  <Fluffy.Pharmacist.Tip>Le ferite non sono tutte uguali; imposta i criteri per usare al meglio i medicinali.</Fluffy.Pharmacist.Tip>
+
+  <Fluffy.Pharmacist.Settings.Title>Farmacista - Impostazioni</Fluffy.Pharmacist.Settings.Title>
+  <Fluffy.Pharmacist.Settings.Tip></Fluffy.Pharmacist.Settings.Tip>
+
+  <Fluffy.Pharmacist.Population.Colonist>Coloni</Fluffy.Pharmacist.Population.Colonist>
+  <Fluffy.Pharmacist.Population.Prisoner>Prigionieri</Fluffy.Pharmacist.Population.Prisoner>
+  <Fluffy.Pharmacist.Population.Animal>Animali</Fluffy.Pharmacist.Population.Animal>
+  <Fluffy.Pharmacist.Population.Guest>Ospiti</Fluffy.Pharmacist.Population.Guest>
+
+  <Fluffy.Pharmacist.Severity.Minor>Ferite superficiali</Fluffy.Pharmacist.Severity.Minor>
+  <Fluffy.Pharmacist.Severity.Major>Ferite profonde</Fluffy.Pharmacist.Severity.Major>
+  <Fluffy.Pharmacist.Severity.LifeThreathening>Ferite mortali</Fluffy.Pharmacist.Severity.LifeThreathening>
+  <Fluffy.Pharmacist.Severity.Operation>Interventi chirurgici</Fluffy.Pharmacist.Severity.Operation>
+
+  <Fluffy.Pharmacist.Severity.Minor.Tip>Contusioni, malattie non mortali e piccoli tagli.</Fluffy.Pharmacist.Severity.Minor.Tip>
+  <Fluffy.Pharmacist.Severity.Major.Tip>Tagli profondi e malattie potenzialmente mortali.</Fluffy.Pharmacist.Severity.Major.Tip>
+  <Fluffy.Pharmacist.Severity.LifeThreathening.Tip>Ferite mortali, infarti e malattie mortali.</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
+  <Fluffy.Pharmacist.Severity.Operation.Tip>Interventi chirurgici, trapianti e sostituzione di arti.</Fluffy.Pharmacist.Severity.Operation.Tip>
+
+  <Fluffy.Pharmacist.DiseaseMargin>Margine di immunità alla malattia: {0}</Fluffy.Pharmacist.DiseaseMargin>
+  <Fluffy.Pharmacist.DiseaseMargin.Tip>Margine di sicurezza utilizzato nel trattamento delle malattie. \n\nSe l'immunità è inferiore alla progressione della malattia più questo margine (e la gravità è superiore alla soglia minima), la malattia viene trattata come una lesione potenzialmente letale.\n\nAd esempio, se una malattia è progredita del 75%, l'immunità è all'80% e il margine è del 10%, la malattia sarà classificata come pericolosa per la vita. Se la soglia fosse del 5%, la malattia sarebbe invece classificata come una lesione grave.</Fluffy.Pharmacist.DiseaseMargin.Tip>
+  <Fluffy.Pharmacist.DiseaseThreshold>Soglia minima di gravità: {0}</Fluffy.Pharmacist.DiseaseThreshold>
+  <Fluffy.Pharmacist.DiseaseThreshold.Tip>Gravità minima prima che una malattia possa essere classificata come potenzialmente letale. \n\nSe la gravità è superiore a questa soglia (e l'immunità è inferiore alla gravità più il margine di sicurezza), la malattia viene trattata come una lesione potenzialmente letale.</Fluffy.Pharmacist.DiseaseThreshold.Tip>
+  <Fluffy.Pharmacist.MinorWoundsThreshold>Soglia dei piccoli tagli: {0}</Fluffy.Pharmacist.MinorWoundsThreshold>
+  <Fluffy.Pharmacist.MinorWoundsThreshold.Tip>Se il numero dei piccoli tagli è maggiore di questa soglia, vengono trattati come lesioni gravi indipendentemente dal tasso di sanguinamento. \n\nUtile per prevenire la "morte per mille tagli", dove un gran numero di piccoli tagli può causare più infezioni e, infine, la morte.</Fluffy.Pharmacist.MinorWoundsThreshold.Tip>
+
+</LanguageData>
