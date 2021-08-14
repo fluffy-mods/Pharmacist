@@ -5,7 +5,7 @@
     "url": "https://github.com/fluffy-mods/Pharmacist",
     "version": {
         "major": 3,
-        "minor": 0,
+        "minor": 1,
         "build": 147
     },
     "author": {
@@ -28,6 +28,24 @@
         }
     ],
     "changelog": [
+        {
+            "date": "2021-08-14T15:34:37.000Z",
+            "message": "add new preview image",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "ff55e2f072e42d0f4b4d2ed1fd725e7cafdea5f5"
+        },
+        {
+            "date": "2021-08-14T14:46:24.000Z",
+            "message": "add traditional Chinese and Italian translations",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "19e6880d8252f59d29598cff409d161271639520"
+        },
         {
             "date": "2021-08-14T14:42:31.000Z",
             "message": "Traditional Chinese translation",

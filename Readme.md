@@ -30,7 +30,7 @@ Some injuries might be diagnosed wrong, and receive medicine that is either not 
 dodther: [Russian translation](https://github.com/fluffy-mods/Pharmacist/commit/264d156)
 CrapoFR: [French translation](https://github.com/fluffy-mods/Pharmacist/commit/f5a9af6)
 MrCaka: [Brazilian Portuguese translation](https://github.com/fluffy-mods/Pharmacist/commit/55a91bf)
-chrisxlite: [Simplified Chinise translation](https://github.com/fluffy-mods/Pharmacist/commit/332161e)
+chrisxlite: [Simplified Chinese translation](https://github.com/fluffy-mods/Pharmacist/commit/332161e)
 53N4: [Spanish translation](https://github.com/fluffy-mods/Pharmacist/commit/e4cc7c0)
 SteamJay: [Swedish translation](https://github.com/fluffy-mods/Pharmacist/commit/c1b1951)
 Dango998: [Simplified Chinese translation](https://github.com/fluffy-mods/Pharmacist/commit/3a3e4a7)
