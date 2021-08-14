@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Fluffy.Pharmacist>藥劑師</Fluffy.Pharmacist>
+  <Fluffy.Pharmacist.Tip>治療時，針對傷勢程度設定藥品施用量</Fluffy.Pharmacist.Tip>
+
+  <Fluffy.Pharmacist.Settings.Title>藥劑師設置</Fluffy.Pharmacist.Settings.Title>
+  <Fluffy.Pharmacist.Settings.Tip></Fluffy.Pharmacist.Settings.Tip>
+
+  <Fluffy.Pharmacist.Population.Colonist>殖民者</Fluffy.Pharmacist.Population.Colonist>
+  <Fluffy.Pharmacist.Population.Prisoner>囚犯</Fluffy.Pharmacist.Population.Prisoner>
+  <Fluffy.Pharmacist.Population.Animal>動物</Fluffy.Pharmacist.Population.Animal>
+  <Fluffy.Pharmacist.Population.Guest>訪客</Fluffy.Pharmacist.Population.Guest>
+
+  <Fluffy.Pharmacist.Severity.Minor>輕微</Fluffy.Pharmacist.Severity.Minor>
+  <Fluffy.Pharmacist.Severity.Major>重大</Fluffy.Pharmacist.Severity.Major>
+  <Fluffy.Pharmacist.Severity.LifeThreathening>極危</Fluffy.Pharmacist.Severity.LifeThreathening>
+  <Fluffy.Pharmacist.Severity.Operation>手術</Fluffy.Pharmacist.Severity.Operation>
+
+  <Fluffy.Pharmacist.Severity.Minor.Tip>擦傷、非致命疾病和小傷口。</Fluffy.Pharmacist.Severity.Minor.Tip>
+  <Fluffy.Pharmacist.Severity.Major.Tip>大面積割傷和潛在致命的疾病。</Fluffy.Pharmacist.Severity.Major.Tip>
+  <Fluffy.Pharmacist.Severity.LifeThreathening.Tip>危及生命的外傷、心臟病發作和急性致命的疾病。</Fluffy.Pharmacist.Severity.LifeThreathening.Tip>
+  <Fluffy.Pharmacist.Severity.Operation.Tip>所有手術、移植和肢體替換。</Fluffy.Pharmacist.Severity.Operation.Tip>
+
+  <Fluffy.Pharmacist.DiseaseMargin>疾病免疫安全值: {0}</Fluffy.Pharmacist.DiseaseMargin>
+  <Fluffy.Pharmacist.DiseaseMargin.Tip>治療疾病時的安全指標。\n\n疾病嚴重值加上此指標（高於最低疾病嚴重值），如果免疫速度低於設定，該用藥方案將會提升極危方案。\n\n例如，目前疾病嚴重值：75%，免疫力：80%，安全值：10%，將被歸類為極危方案。如果安全值為5%，則該將被歸類為重大方案。</Fluffy.Pharmacist.DiseaseMargin.Tip>
+  <Fluffy.Pharmacist.DiseaseThreshold>最低疾病嚴重值： {0}</Fluffy.Pharmacist.DiseaseThreshold>
+  <Fluffy.Pharmacist.DiseaseThreshold.Tip>疾病被歸類為潛在致命疾病之前的最低嚴重程度。\n\n如果嚴重程度大於設定（免疫力低於設定值+安全值），則該疾病將被視為極危方案。</Fluffy.Pharmacist.DiseaseThreshold.Tip>
+  <Fluffy.Pharmacist.MinorWoundsThreshold>外傷指標值: {0}</Fluffy.Pharmacist.MinorWoundsThreshold>
+  <Fluffy.Pharmacist.MinorWoundsThreshold.Tip>如果輕微外傷的數量大於設定，無視是否有出血，用藥方案將升級成重大方案。\n\n主要防止"淩遲至死"，其中大量的輕微外傷可能會導致多種感染-最終，死亡。</Fluffy.Pharmacist.MinorWoundsThreshold.Tip>
+
+</LanguageData>
