@@ -5,7 +5,7 @@
     "url": "https://github.com/fluffy-mods/Pharmacist",
     "version": {
         "major": 3,
-        "minor": 1,
+        "minor": 2,
         "build": 147
     },
     "author": {
@@ -28,6 +28,15 @@
         }
     ],
     "changelog": [
+        {
+            "date": "2021-08-14T17:49:42.000Z",
+            "message": "try to use medicine in inventory first",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "4967faf00f4372d46ce14e810ff624075fa5dedf"
+        },
         {
             "date": "2021-08-14T15:34:37.000Z",
             "message": "add new preview image",
