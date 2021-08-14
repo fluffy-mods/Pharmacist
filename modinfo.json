@@ -63,6 +63,11 @@
             "hash": "3a3e4a78dd92bb580dea16ef8316435800d2d3b2",
             "author": "Dango998",
             "description": "Simplified Chinese translation"
+        },
+        {
+            "name": "skizzix3",
+            "description": "testing for 1.3 release",
+            "hash": "9fcd8aa6"
         }
     ],
     "contributors": {
@@ -113,6 +118,13 @@
                 "hash": "3a3e4a7",
                 "author": "Dango998",
                 "description": "Simplified Chinese translation"
+            }
+        ],
+        "undefined": [
+            {
+                "name": "skizzix3",
+                "description": "testing for 1.3 release",
+                "hash": "9fcd8aa"
             }
         ]
     },
