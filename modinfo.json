@@ -1,0 +1,145 @@
+{
+    "name": "Pharmacist",
+    "sourceDir": ".",
+    "targetDir": "Pharmacist",
+    "url": "https://github.com/fluffy-mods/Pharmacist",
+    "version": {
+        "major": 3,
+        "minor": 0,
+        "build": 146
+    },
+    "author": {
+        "name": "Fluffy",
+        "url": "https://github.com/fluffy-mods/",
+        "email": "fluffy.l2032@gmail.com"
+    },
+    "git": {
+        "owner": "fluffy-mods",
+        "repo": "Pharmacist",
+        "url": "https://github.com/fluffy-mods/Pharmacist"
+    },
+    "dependencies": [
+        {
+            "type": "required",
+            "id": "brrainz.harmony",
+            "name": "Harmony",
+            "steamId": 2009463077,
+            "download": "https://github.com/pardeike/HarmonyRimWorld/releases/latest"
+        }
+    ],
+    "changelog": [],
+    "contributions": [
+        {
+            "hash": "264d156643cf7ad1192349488e2f81b279f69633",
+            "author": "dodther",
+            "description": "Russian translation"
+        },
+        {
+            "hash": "f5a9af69e7dd1da3f1ebecd12b6582cbc0839703",
+            "author": "CrapoFR",
+            "description": "French translation"
+        },
+        {
+            "hash": "55a91bfff3e7ae2a10317d7fb55e1302e26a2933",
+            "author": "MrCaka",
+            "description": "Brazilian Portuguese translation"
+        },
+        {
+            "hash": "332161e8eab6ddb26a25a2b8ff5fe4eaa98c5535",
+            "author": "chrisxlite",
+            "description": "Simplified Chinise translation"
+        },
+        {
+            "hash": "e4cc7c066e1394de6119a85e654d966c0fb70220",
+            "author": "53N4",
+            "description": "Spanish translation"
+        },
+        {
+            "hash": "c1b1951d2f6825232eb970b134340f9b145bbc29",
+            "author": "SteamJay",
+            "description": "Swedish translation"
+        },
+        {
+            "hash": "3a3e4a78dd92bb580dea16ef8316435800d2d3b2",
+            "author": "Dango998",
+            "description": "Simplified Chinese translation"
+        }
+    ],
+    "contributors": {
+        "dodther": [
+            {
+                "hash": "264d156",
+                "author": "dodther",
+                "description": "Russian translation"
+            }
+        ],
+        "CrapoFR": [
+            {
+                "hash": "f5a9af6",
+                "author": "CrapoFR",
+                "description": "French translation"
+            }
+        ],
+        "MrCaka": [
+            {
+                "hash": "55a91bf",
+                "author": "MrCaka",
+                "description": "Brazilian Portuguese translation"
+            }
+        ],
+        "chrisxlite": [
+            {
+                "hash": "332161e",
+                "author": "chrisxlite",
+                "description": "Simplified Chinise translation"
+            }
+        ],
+        "53N4": [
+            {
+                "hash": "e4cc7c0",
+                "author": "53N4",
+                "description": "Spanish translation"
+            }
+        ],
+        "SteamJay": [
+            {
+                "hash": "c1b1951",
+                "author": "SteamJay",
+                "description": "Swedish translation"
+            }
+        ],
+        "Dango998": [
+            {
+                "hash": "3a3e4a7",
+                "author": "Dango998",
+                "description": "Simplified Chinese translation"
+            }
+        ]
+    },
+    "attributions": [
+        {
+            "description": "blood, hospital icons",
+            "author": "srip",
+            "license": "BY-NC",
+            "url": "https://www.flaticon.com/authors/srip"
+        },
+        {
+            "description": "scalpel icon",
+            "author": "Freepik",
+            "license": "BY-NC",
+            "url": "https://freepik.com/"
+        },
+        {
+            "description": "heart icon",
+            "author": "Good Ware",
+            "license": "BY-NC",
+            "url": "https://www.flaticon.com/free-icon/heart_684262"
+        },
+        {
+            "description": "finger icon",
+            "author": "Smashicons",
+            "license": "BY-NC",
+            "url": "https://www.flaticon.com/free-icon/finger_139497"
+        }
+    ]
+}
