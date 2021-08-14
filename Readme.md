@@ -1,25 +1,31 @@
 Not all injuries are equal; pharmacist prescribes the right medicine for the job.
 
-![Important](https://banners.karel-kroeze.nl/title/Important.png)  Does not require a new save game 
+![Important](https://banners.karel-kroeze.nl/title/Important.png)  
+Does not require a new save game
 Can safely be enabled in an ongoing save-game, disabling will cause a one-time error message upon loading the save again for the first time. The error message is mostly harmless.
 
-![Features](https://banners.karel-kroeze.nl/title/Features.png)  Pharmacist allows you to set the maximum level of medicine that may be used for certain treatments. Doctors will use the best medicine that is available, and that is at most the level of the targets' medical care setting and the pharmacists' advice. Four levels of injuries are distinguished;
- - Minor (bruises, non-lethal diseases, small cuts)
- - Major (larger cuts, potentially lethal diseases)
- - Life-Threathening (extreme bleeding, heart attacks, etc.)
- - Operations (all implants, harvesting, etc.)
+![Features](https://banners.karel-kroeze.nl/title/Features.png)  
+Pharmacist allows you to set the maximum level of medicine that may be used for certain treatments. Doctors will use the best medicine that is available, and that is at most the level of the targets' medical care setting and the pharmacists' advice. Four levels of injuries are distinguished;
+
+- Minor (bruises, non-lethal diseases, small cuts)
+- Major (larger cuts, potentially lethal diseases)
+- Life-Threathening (extreme bleeding, heart attacks, etc.)
+- Operations (all implants, harvesting, etc.)
 
 The Pharmacists' advice for each of these can be set for Colonists, Guests, Prisoners and Animals separately with the 'Pharmacist' button on the main bar.
 
-![Notes](https://banners.karel-kroeze.nl/title/Notes.png)  Doctors out on the rim treat wounds in batches, and use the same medicine for each treatment in a batch. I did not want to confuse them too much, so I've left that behaviour intact. That means that the worst injury determines what medicine is used for the whole batch, and doctors may still use Glitterworld medicine for treating a bruise if they were treating a heart attack at the same time.
+![Notes](https://banners.karel-kroeze.nl/title/Notes.png)  
+Doctors out on the rim treat wounds in batches, and use the same medicine for each treatment in a batch. I did not want to confuse them too much, so I've left that behaviour intact. That means that the worst injury determines what medicine is used for the whole batch, and doctors may still use Glitterworld medicine for treating a bruise if they were treating a heart attack at the same time.
 
 As far as I know, the mod should be compatible with everything. Mods that directly alter the available number of medical care options may cause issues, and I think I've seen such a mod at one point, but I've been unable to find it again. If you find any incompatibilities, please let me know!
 
-I'm not quite happy with the UI yet, but for now it's functional. If you have suggestions, I'm always willing to listen. 
+I'm not quite happy with the UI yet, but for now it's functional. If you have suggestions, I'm always willing to listen.
 
 Some injuries might be diagnosed wrong, and receive medicine that is either not good enough or too good. If the treatment is too good, make sure that it wasn't part of a batch treatment (see above). If the treatment is not good enough, that's a bigger problem, and I'd like to know about what injuries are diagnosed badly.
 
-![Powered by Harmony](https://banners.karel-kroeze.nl/title/Powered%20by%20Harmony.png)  ![Powered by Harmony](https://camo.githubusercontent.com/074bf079275fa90809f51b74e9dd0deccc70328f/68747470733a2f2f7332342e706f7374696d672e6f72672f3538626c31727a33392f6c6f676f2e706e67)
+![Powered by Harmony](https://banners.karel-kroeze.nl/title/Powered%20by%20Harmony.png)  
+![Powered by Harmony](https://camo.githubusercontent.com/074bf079275fa90809f51b74e9dd0deccc70328f/68747470733a2f2f7332342e706f7374696d672e6f72672f3538626c31727a33392f6c6f676f2e706e67)
+
 ![Contributors](https://banners.karel-kroeze.nl/title/Contributors.png)  
 dodther: [Russian translation](https://github.com/fluffy-mods/Pharmacist/commit/264d156)
 CrapoFR: [French translation](https://github.com/fluffy-mods/Pharmacist/commit/f5a9af6)
@@ -28,6 +34,8 @@ chrisxlite: [Simplified Chinise translation](https://github.com/fluffy-mods/Phar
 53N4: [Spanish translation](https://github.com/fluffy-mods/Pharmacist/commit/e4cc7c0)
 SteamJay: [Swedish translation](https://github.com/fluffy-mods/Pharmacist/commit/c1b1951)
 Dango998: [Simplified Chinese translation](https://github.com/fluffy-mods/Pharmacist/commit/3a3e4a7)
+gast: [Traditional Chinese translation](https://github.com/fluffy-mods/Pharmacist/commit/3df508b)
+kenciccio: [Italian translation](https://github.com/fluffy-mods/Pharmacist/commit/b2906e7)
 
 
 ![Think you found a bug?](https://banners.karel-kroeze.nl/title/Think%20you%20found%20a%20bug%3F.png)  

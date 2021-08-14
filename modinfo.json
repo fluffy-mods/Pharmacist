@@ -6,7 +6,7 @@
     "version": {
         "major": 3,
         "minor": 0,
-        "build": 146
+        "build": 147
     },
     "author": {
         "name": "Fluffy",
@@ -27,7 +27,44 @@
             "download": "https://github.com/pardeike/HarmonyRimWorld/releases/latest"
         }
     ],
-    "changelog": [],
+    "changelog": [
+        {
+            "date": "2021-08-14T14:42:31.000Z",
+            "message": "Traditional Chinese translation",
+            "author": {
+                "name": "gast",
+                "email": "39412432+shiuanyue@users.noreply.github.com"
+            },
+            "hash": "3df508b6b8859f19aa55ea825fdeca4d0da0e2a9"
+        },
+        {
+            "date": "2021-08-14T14:41:42.000Z",
+            "message": "Italian translation",
+            "author": {
+                "name": "kenciccio",
+                "email": "76808284+kenciccio@users.noreply.github.com"
+            },
+            "hash": "b2906e787c0ef75c2eb19eccc1bda98009589f90"
+        },
+        {
+            "date": "2021-08-14T14:40:46.000Z",
+            "message": "add skizix to contributors for testing",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "7c1561afdee8f45304b74636327b5ce0b4462f17"
+        },
+        {
+            "date": "2021-08-14T14:36:40.000Z",
+            "message": "project modernization, initial 1.3 update",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "619d14e9ccb5ea07d7e370a87a27236f0cef07af"
+        }
+    ],
     "contributions": [
         {
             "hash": "264d156643cf7ad1192349488e2f81b279f69633",
@@ -47,7 +84,7 @@
         {
             "hash": "332161e8eab6ddb26a25a2b8ff5fe4eaa98c5535",
             "author": "chrisxlite",
-            "description": "Simplified Chinise translation"
+            "description": "Simplified Chinese translation"
         },
         {
             "hash": "e4cc7c066e1394de6119a85e654d966c0fb70220",
@@ -65,9 +102,14 @@
             "description": "Simplified Chinese translation"
         },
         {
-            "name": "skizzix3",
-            "description": "testing for 1.3 release",
-            "hash": "9fcd8aa6"
+            "hash": "3df508b6b8859f19aa55ea825fdeca4d0da0e2a9",
+            "author": "gast",
+            "description": "Traditional Chinese translation"
+        },
+        {
+            "hash": "b2906e787c0ef75c2eb19eccc1bda98009589f90",
+            "author": "kenciccio",
+            "description": "Italian translation"
         }
     ],
     "contributors": {
@@ -96,7 +138,7 @@
             {
                 "hash": "332161e",
                 "author": "chrisxlite",
-                "description": "Simplified Chinise translation"
+                "description": "Simplified Chinese translation"
             }
         ],
         "53N4": [
@@ -120,11 +162,18 @@
                 "description": "Simplified Chinese translation"
             }
         ],
-        "undefined": [
+        "gast": [
             {
-                "name": "skizzix3",
-                "description": "testing for 1.3 release",
-                "hash": "9fcd8aa"
+                "hash": "3df508b",
+                "author": "gast",
+                "description": "Traditional Chinese translation"
+            }
+        ],
+        "kenciccio": [
+            {
+                "hash": "b2906e7",
+                "author": "kenciccio",
+                "description": "Italian translation"
             }
         ]
     },
