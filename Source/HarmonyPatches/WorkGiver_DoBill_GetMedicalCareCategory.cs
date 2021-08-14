@@ -9,7 +9,7 @@ namespace Pharmacist.Properties {
     [HarmonyPatch(typeof(WorkGiver_DoBill), "GetMedicalCareCategory")]
     public static class WorkGiver_DoBill_GetMedicalCareCategory {
         public static bool Prefix(Thing billGiver, ref MedicalCareCategory __result) {
-            if (!(billGiver is Pawn pawn)) {
+            if (billGiver is not Pawn pawn) {
                 // because this is the fallback vanilla uses...
                 __result = MedicalCareCategory.Best;
             } else {

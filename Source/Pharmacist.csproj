@@ -8,6 +8,7 @@
         <OutputPath>..\Assemblies\</OutputPath>
         <DebugType>portable</DebugType>
         <PostBuildEvent>mod update</PostBuildEvent>
+        <LangVersion>9</LangVersion>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Krafs.Rimworld.Ref" Version="1.3.3087" />
