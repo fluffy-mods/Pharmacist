@@ -43,9 +43,11 @@ namespace Pharmacist {
             //
             // thanks to KennethSammael for adding this check in the unofficial 1.3 update,
             // this code is adapted from his changes.
-            __result = healer.inventory.innerContainer
-                .Where(allowedPredicate)
-                .MaxBy(potencyGetter);
+            var allowedMedicine = healer.inventory.innerContainer.Where(allowedPredicate);
+            if (allowedMedicine.Any()) {
+                __result = allowedMedicine.MaxBy(potencyGetter);
+
+            }
             if (__result is not null || onlyUseInventory) {
                 return false;
             }
