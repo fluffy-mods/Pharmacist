@@ -5,7 +5,7 @@
     "url": "https://github.com/fluffy-mods/Pharmacist",
     "version": {
         "major": 3,
-        "minor": 2,
+        "minor": 3,
         "build": 148
     },
     "author": {
@@ -28,6 +28,15 @@
         }
     ],
     "changelog": [
+        {
+            "date": "2021-08-27T22:10:06.000Z",
+            "message": "fix tending and interaction error",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "a2ba778c82d1528f0c57eaf17d5f7a78f4cd9a2e"
+        },
         {
             "date": "2021-08-14T17:49:42.000Z",
             "message": "try to use medicine in inventory first",
