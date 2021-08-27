@@ -2,6 +2,7 @@
 // HealthAIUtility_FindBestMedicine.cs
 // 2017-02-11
 
+using System.Collections.Generic;
 using System.Linq;
 using HarmonyLib;
 using RimWorld;
@@ -43,9 +44,12 @@ namespace Pharmacist {
             //
             // thanks to KennethSammael for adding this check in the unofficial 1.3 update,
             // this code is adapted from his changes.
-            __result = healer.inventory.innerContainer
-                .Where(allowedPredicate)
-                .MaxBy(potencyGetter);
+            // Update; I adapted it badly. The fault was all mine.
+            IEnumerable<Thing> options = healer.inventory.innerContainer
+                .Where(allowedPredicate);
+            if (options.Any()) {
+                __result = options.MaxBy(potencyGetter);
+            }
             if (__result is not null || onlyUseInventory) {
                 return false;
             }
