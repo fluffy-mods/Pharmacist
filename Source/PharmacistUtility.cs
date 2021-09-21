@@ -34,14 +34,18 @@ namespace Pharmacist {
             // going to die in <6 hours, or any tendable is life threathening
             if (ticksToDeathDueToBloodLoss <= GenDate.TicksPerHour * 6 ||
                  hediffs.Any(h => h.CurStage?.lifeThreatening ?? false) ||
-                 hediffs.Any(NearLethalDisease)) {
+                 hediffs.Any(NearLethalDisease) || 
+                 hediffs.Any(h => IsBloodRot(h) && h.Severity > PharmacistSettings.medicalCare.DiseaseThreshold)
+                 ) {
                 return InjurySeverity.LifeThreathening;
             }
 
             // going to die in <12 hours, or any immunity < severity and can be fatal, or death by a thousand cuts imminent
             if (ticksToDeathDueToBloodLoss <= GenDate.TicksPerHour * 12 ||
                  hediffs.Any(PotentiallyLethalDisease) ||
-                 DeathByAThousandCuts(patient)) {
+                 DeathByAThousandCuts(patient) ||
+                 hediffs.Any(IsBloodRot)
+                 ) {
                 return InjurySeverity.Major;
             }
 
@@ -68,6 +72,11 @@ namespace Pharmacist {
                    !compImmunizable.FullyImmune &&
                    h.Severity > PharmacistSettings.medicalCare.DiseaseThreshold &&
                    compImmunizable.Immunity < PharmacistSettings.medicalCare.DiseaseMargin + h.Severity;
+        }
+
+        private static bool IsBloodRot(Hediff h)
+        {
+            return h.def.defName == "BloodRot";
         }
 
         private static bool DeathByAThousandCuts(Pawn patient) {
@@ -106,11 +115,12 @@ namespace Pharmacist {
 #if DEBUG
             Log.Message(
                 "Pharmacist :: Advice" +
-                $"\n\tpatient: {patient?.LabelShort}" +
-                $"\n\tpopulation: {population}" +
-                $"\n\tseverity: {severity}" +
-                $"\n\tplayerSettings: {playerSetting}" +
-                $"\n\tpharmacist: {pharmacist}");
+                $"\tpatient: {patient?.LabelShort}" +
+                $"\tpopulation: {population}" +
+                $"\tbloodRot: {patient.health.hediffSet.hediffs.Exists(IsBloodRot)}" +
+                $"\tseverity: {severity}" +
+                $"\tplayerSettings: {playerSetting}" +
+                $"\tpharmacist: {pharmacist}");
 #endif
 
             // return lowest
