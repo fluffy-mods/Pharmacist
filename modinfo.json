@@ -6,7 +6,7 @@
     "version": {
         "major": 3,
         "minor": 3,
-        "build": 149
+        "build": 150
     },
     "author": {
         "name": "Fluffy",
@@ -28,6 +28,15 @@
         }
     ],
     "changelog": [
+        {
+            "date": "2022-02-26T16:08:11.000Z",
+            "message": "Update description",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "63a0ef6f8bc315edb4c59105f4a001f4c401e046"
+        },
         {
             "date": "2021-08-27T22:10:06.000Z",
             "message": "fix tending and interaction error",
